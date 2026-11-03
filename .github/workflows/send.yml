@@ -1,0 +1,35 @@
+name: Send postcard
+on:
+  push:
+    branches: [main]
+    paths: ["issues/*/postcard.html"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: Issue date, YYYY-MM-DD
+        required: true
+      nonce:
+        description: Any new text, to allow a resend
+        required: false
+      now:
+        description: Send immediately instead of at 8:30
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send the newest postcard
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          SEND_NONCE: ${{ inputs.nonce }}
+          SEND_NOW: ${{ inputs.now && '1' || '' }}
+          DATE_INPUT: ${{ inputs.date }}
+        run: python .github/scripts/send.py "${DATE_INPUT:-$(ls issues | sort | tail -1)}"
