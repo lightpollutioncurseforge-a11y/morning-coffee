@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#141c26">
+<title>Morning Coffee · 6 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Beaker's chalk, flint and clay remain the register; each band takes its ground from the object it holds. */
+:root{--chalk:#EDE5D3;--ink:#1C1A17;--flint:#3E4649;--clay:#B8432A;
+--serif:"Old Standard TT",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--ar:"Amiri","Geeza Pro",serif;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:48px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--chalk);color:var(--ink);font:400 19px/1.46 var(--serif)}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+img{display:block;width:100%;height:auto;max-width:100%}
+p{margin:0}
+.w{max-width:640px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{background:var(--bg);color:var(--fg);padding-block:34px 36px}
+.band .w{display:grid;gap:14px;min-width:0}
+.label{font:500 11px/1.4 var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--ac);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.label i{font-style:normal;opacity:.9}
+h2{font:700 clamp(31px,8.6vw,44px)/1.03 var(--serif);margin:0;text-wrap:balance;letter-spacing:-.005em}
+h2 em{font-weight:400}
+.cap,.src{font:400 12px/1.5 var(--mono)}
+.cap{opacity:.88}
+.lede{font-size:21px;line-height:1.38}
+.zone{height:9px;margin-top:4px;background:repeating-linear-gradient(90deg,currentColor 0 3px,transparent 3px 7px);opacity:.55}
+blockquote{margin:0;padding-left:14px;border-left:3px solid var(--ac);font-style:italic;font-size:19px;line-height:1.36}
+blockquote cite{display:block;font:400 12px/1.5 var(--mono);margin-top:5px}
+
+.mast{background:#6b3413;color:#fbeed2;padding-block:26px 0}
+.mast .w{display:grid;gap:10px}
+.mast h1{font:700 clamp(58px,17.5vw,104px)/.86 var(--serif);letter-spacing:-.015em;margin:0}
+.mast h1 em{font-weight:400;display:block;font-size:.52em;line-height:1;letter-spacing:.005em;margin-bottom:.1em}
+.meta{font:400 12px/1.5 var(--mono);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#f3cf94}
+.thread{padding-block:4px 20px;font-size:21px;line-height:1.36}
+
+nav.strip{position:sticky;top:0;z-index:40;background:var(--chalk);border-block:1px solid var(--ink);overflow-x:auto;scrollbar-width:none;white-space:nowrap;padding-left:max(8px,env(safe-area-inset-left,0px))}
+nav.strip::-webkit-scrollbar{display:none}
+nav.strip a{display:inline-block;font:500 11px/1 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--flint);text-decoration:none;padding:13px 9px}
+
+details{border-top:1px solid currentColor;padding-top:12px}
+summary{font:500 13px/1.4 var(--mono);cursor:pointer;color:var(--ac);min-height:24px}
+details[open] summary{margin-bottom:10px}
+details div{display:grid;gap:12px}
+
+.song{display:grid;gap:10px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font:500 13px/1 var(--mono);text-decoration:none;padding:12px 14px;border:1px solid currentColor}
+.links a:hover{background:var(--fg);color:var(--bg)}
+
+.poem{--bg:#191c33;--fg:#eee9dc;--ac:#e8603c}
+.couplet{display:grid;gap:3px;padding-block:9px;border-top:1px solid rgba(238,233,220,.2)}
+.ar{font:400 21px/1.75 var(--ar);direction:rtl;text-align:right;display:grid;grid-template-columns:1fr;column-gap:14px}
+.ar span:last-child{text-align:left}
+.en{font-size:21px;line-height:1.3;font-style:italic}
+.en span{display:block}
+.en span+span{padding-left:1.1em}
+.flash{color:#ff7a52}
+
+.law{--bg:var(--chalk);--fg:var(--ink);--ac:var(--clay)}
+.law table{width:100%;border-collapse:collapse;font:400 13px/1.45 var(--mono)}
+.law th,.law td{text-align:left;vertical-align:top;padding:8px 10px 8px 0;border-bottom:1px solid #c3c2b6}
+.law th{font-weight:500;color:var(--flint);width:5.6em;text-transform:uppercase;font-size:11px;letter-spacing:.05em;padding-top:10px}
+.law td{padding-right:0}
+.law article{display:grid;gap:12px;padding-block:18px 8px;border-top:3px double var(--ink)}
+.law h3{font:700 25px/1.1 var(--serif);margin:0}
+.law .also{font:400 13px/1.5 var(--mono);border-top:3px double var(--ink);padding-top:14px;display:grid;gap:9px}
+
+.ai{--bg:#3E4649;--fg:#EDE5D3;--ac:#f0a991}
+.ai article{display:grid;gap:7px;padding-block:14px 16px;border-top:1px solid rgba(237,229,211,.45)}
+.ai h3{font:700 23px/1.12 var(--serif);margin:0}
+.bleed{margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)))}
+.end{background:var(--chalk);padding-block:26px 44px;font:400 12px/1.55 var(--mono);color:var(--flint)}
+@media (min-width:560px){.ar{grid-template-columns:1fr 1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.sv-st{display:grid;gap:8px;padding-block:12px;border-top:1px solid rgba(32,38,26,.25)}
+.sv{font-size:19px;line-height:1.4}
+.sv span{display:block}
+.sv-st .en{font-size:19px;line-height:1.4}
+.sv-st .en span+span{padding-left:0}
+@media (min-width:560px){.sv-st{grid-template-columns:1fr 1fr;column-gap:18px}}
+</style>
+</head>
+<body>
+
+<header class="mast" style="background:#141c26"><div class="w">
+  <div class="meta" style="color:#d79a5c"><span>Friday, 6 November 2026</span><span>No. 5 · about 9 min</span></div>
+  <h1 style="color:#efe3cf"><em>Morning</em>Coffee</h1>
+  <p class="thread" style="color:#efe3cf">Today’s thread is the hand behind the thing: a widow who asked Böcklin to put a coffin in his boat, a judge who blamed his clerk’s software, and a pope who says machines are “tools, not persons.”</p>
+  <p class="cap" style="color:#d79a5c;padding-bottom:16px">Missing today: the Met’s object pages refused my requests, so its four items carry catalogue data and outside sources only. I couldn’t read the Tenth Circuit’s ruling on AI-assisted legal fees, so it’s left out. Pope Leo’s address is quoted from two reports, not from the Vatican’s text.</p>
+</div>
+<img src="img/postcard.jpg" width="1200" height="630" alt="A dark rocky islet at night, with tall black cypresses in its centre and lit orange cliffs with doorways cut into them. A small rowboat with a standing white figure approaches across black water."></header>
+
+<nav class="strip" aria-label="In this issue"><a href="#island">Island</a><a href="#utanmyra">Utanmyra</a><a href="#face">Face</a><a href="#lutzen">Lützen</a><a href="#gold">Gold</a><a href="#bench">Bench</a><a href="#poem">Spring</a><a href="#blue">Blue</a><a href="#pass">Pass</a><a href="#ai">AI</a></nav>
+
+<section class="band" id="island" style="--bg:#141c26;--fg:#efe3cf;--ac:#d79a5c"><div class="w">
+  <div class="label"><span>Painting</span><i>Guess first</i></div>
+  <p class="lede">A rowboat, a figure in white, a garlanded box, and cypresses packed into a rock. Who asked the painter to put the passenger and the box in the boat, and why?</p>
+  <details><summary>Tap to reveal</summary><div>
+    <img src="img/boecklin.jpg" width="1280" height="780" alt="The full painting: the rocky island with its cypress grove and cliff tombs, the boat with its white figure and draped coffin small at the bottom centre.">
+    <h2>Island of the Dead</h2>
+    <p class="cap">Arnold Böcklin (Swiss, 1827–1901) · June 1880 · oil on wood · 73.7 × 121.9 cm · Metropolitan Museum 26.90 · public domain</p>
+    <p>It was Marie Berna, a widow. In April 1880 she saw the first version half-finished on Böcklin’s easel in Florence. He painted this smaller one on wood for her, and at her request added the coffin and the woman in white, for her husband’s death from diphtheria years before. Then he added both to the first version too.</p>
+    <p>He gave no public explanation, only that it was “a dream picture: it must produce such a stillness that one would be awed by a knock on the door.” The English Cemetery near his Florence studio held his infant daughter, and he lost 8 of his 14 children. One possible model for the rock is Pontikonisi, off Corfu, the island of the Lear drawings you saved. Nabokov wrote that prints were “found in every Berlin home.”</p>
+    <p class="src"><a href="https://www.metmuseum.org/art/collection/search/435683">Met record →</a> · <a href="https://en.wikipedia.org/wiki/Island_of_the_Dead_(B%C3%B6cklin)">The six versions →</a></p>
+  </div></details>
+</div></section>
+
+<section class="band" id="utanmyra" style="--bg:#e6e1d4;--fg:#1d2430;--ac:#2f5d8a"><div class="w">
+  <div class="label"><span>Song · 4:30</span><i>Piano and bass</i></div>
+  <h2>Jan Johansson, <em>“Visa från Utanmyra”</em></h2>
+  <p class="cap">Jazz på svenska · Megafon · 1964 · Jan Johansson, piano; Georg Riedel, double bass</p>
+  <p>Swedish folk tunes arranged for piano and bass and nothing else. The album became the best-selling jazz record in Swedish history, and this opening track is the famous one. It sits near Brubeck’s <em>Jazz Impressions of Japan</em> in your likes: jazz taking up folk melody, though here the folk music is the player’s own. For the Hallowed end of your likes, his sons play in HammerFall and Stratovarius.</p>
+  <div class="links"><a href="https://open.spotify.com/search/Jan%20Johansson%20Visa%20fr%C3%A5n%20Utanmyra">Spotify</a><a href="https://www.youtube.com/results?search_query=Jan+Johansson+Visa+fr%C3%A5n+Utanmyra">YouTube</a></div>
+  <p class="src"><a href="https://en.wikipedia.org/wiki/Jazz_p%C3%A5_svenska">The album →</a> · <a href="https://en.wikipedia.org/wiki/Jan_Johansson_(jazz_musician)">Johansson →</a></p>
+</div></section>
+
+<section class="band" id="face" style="--bg:#2d4a43;--fg:#e8efe9;--ac:#d6a96a"><div class="w">
+  <div class="label"><span>Artifact</span><i>14.6 cm tall</i></div>
+  <img src="img/olmec.jpg" width="900" height="922" alt="A green jadeite face mask streaked with paler veins, with heavy-lidded eyes, drilled nostrils and a full down-turned mouth. Small holes are drilled at the sides and rust-coloured deposits sit in the hollows.">
+  <h2>Face</h2>
+  <p class="cap">Olmec · Mexico · 900–400 BCE · jadeite · 14.6 × 14 × 7.6 cm · Metropolitan Museum 1977.187.33 · public domain</p>
+  <p>Deep-set eyes, open nostrils, a heavy mouth: these are what scholars call the “Olmec style.” What nobody has is a findspot. No such mask has yet come from a controlled Olmec excavation. One turned up deliberately buried in Aztec Tenochtitlan, perhaps 2,000 years old when it went into the ground, which suggests the Aztecs collected these the way Europeans collected Roman antiquities. It belongs with your bronze masks: another face that stares back.</p>
+  <p class="src"><a href="https://www.metmuseum.org/art/collection/search/310279">Met record →</a> · <a href="https://en.wikipedia.org/wiki/Olmecs#Jade_face_masks">Olmec jade masks →</a></p>
+</div></section>
+
+<section class="band" id="lutzen" style="--bg:#4a4c4b;--fg:#eeeae2;--ac:#e0bf6e"><div class="w">
+  <div class="label"><span>Anecdote</span><i>Lützen, 6 November 1632</i></div>
+  <h2>Lützen fog</h2>
+  <p>On this date by the calendar Sweden then used, Gustavus Adolphus attacked Wallenstein’s army outside Lützen, near Leipzig. Morning mist and a canal crossing held the Swedes up until eleven. Swedes still say <em>Lützendimma</em>, “Lützen fog,” for a very heavy one, though some argue it was smoke from the town, which Wallenstein had ordered set on fire. In the afternoon the king, trying to rally broken infantry, got lost in that smoke with his escort and rode into Imperial cavalry. He was shot three times. His body was found that evening under a heap of corpses.</p>
+  <p>In 2011 archaeologists found a pit of 47 soldiers, most likely from the Swedish Blue Brigade. Their average age was about 28, and many had old, healed wounds. Isotopes put only five as probably Scandinavian. The study is blunt about motive:</p>
+  <blockquote>Only a very small minority were fighting for ideals or religious convictions.</blockquote>
+  <p>And about the result: “From a neutral perspective there were no victors and the war would continue for another 16 years.” Wedgwood’s <em>Thirty Years War</em>, on your list, tells it from the top. This is the view from the pit. Sweden still keeps the day, mostly with a pastry topped by a relief of the king in chocolate or marzipan.</p>
+  <p class="src"><a href="https://en.wikipedia.org/wiki/Battle_of_L%C3%BCtzen_(1632)">The battle →</a> · <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178252">The mass grave, PLOS ONE 2017 →</a> · <a href="https://en.wikipedia.org/wiki/Gustavus_Adolphus_Day">The pastry →</a></p>
+  <div class="zone"></div>
+  <div class="song">
+    <div class="label"><span>Listen alongside · 2:18</span><i>Getting ready for a battle</i></div>
+    <h2 style="font-size:28px">Georgian State Merited Ensemble, <em>“Chakrulo”</em></h2>
+    <p class="cap">Voyager Golden Record · 1977 · recorded at Melodiya, Tbilisi · Anzor Kavsadze, director; Ilia Zakaidze and Rostom Saginashvili, tenors</p>
+    <p>A three-part song from Kakheti that acts out the preparations for a battle, with two heavily ornamented solo voices over a choral base. UNESCO cited it when it recognised Georgian polyphony in 2001, and this recording left on both Voyagers in 1977. It sits with your Delphic Hymn and Tuvan likes, and with the Caucasus towers you saved. The performer credits come from Wikipedia, which flags their source as self-published.</p>
+    <div class="links"><a href="https://open.spotify.com/search/Chakrulo%20Voyager">Spotify</a><a href="https://www.youtube.com/results?search_query=Chakrulo+Voyager+Golden+Record">YouTube</a></div>
+    <p class="src"><a href="https://en.wikipedia.org/wiki/Chakrulo">The song →</a> · <a href="https://en.wikipedia.org/wiki/Contents_of_the_Voyager_Golden_Record">Voyager credits →</a></p>
+  </div>
+</div></section>
+
+<section class="band" id="gold" style="--bg:#c9a24a;--fg:#24190a;--ac:#5a3a0c"><div class="w">
+  <div class="label"><span>Artifact</span><i>25.5 mm tall</i></div>
+  <img src="img/gustav.jpg" width="900" height="968" alt="A small oval gold relief portrait of a balding man with an upturned moustache and pointed beard, in a lace collar and sash, with a suspension loop at top and bottom.">
+  <h2>Gustavus Adolphus, King of Sweden</h2>
+  <p class="cap">Maker unknown · about 1631 · gold, enamel · 25.5 × 16.4 mm · Metropolitan Museum 2023.569.232 · public domain</p>
+  <p>The king from the fog, small enough to close a hand around, made about a year before Lützen. The Met lists gold and enamel. The side photographed is plain gold relief, lace collar and all, with a loop at each end. Its record page wouldn’t load for me, so I can’t tell you who wore it or how.</p>
+  <p class="src"><a href="https://www.metmuseum.org/art/collection/search/855775">Met record →</a></p>
+</div></section>
+
+<section class="band law" id="bench"><div class="w">
+  <div class="label"><span>The bench</span><i>Read from the opinions</i></div>
+  <h2>What a judge owes the room</h2>
+
+  <article>
+    <h3>Jackson Federation of Teachers v. Fitch</h3>
+    <table>
+      <tr><th>Court</th><td>Fifth Circuit, No. 25-60496 · Oct. 22, 2026 · opinion by Smith</td></tr>
+      <tr><th>Holding</th><td>Preliminary injunction against Mississippi’s H.B. 1193, which restricts DEI programs in public education, vacated. The case goes to a different district judge “for all further proceedings.”</td></tr>
+      <tr><th>Vote</th><td>Smith wrote; Engelhardt wrote nothing separately. Haynes concurred only in the opinion’s last paragraph, the disposition.</td></tr>
+      <tr><th>Below</th><td>Judge Henry Wingate, S.D. Miss.</td></tr>
+    </table>
+    <p>Wingate’s first restraining order named eleven plaintiffs who were never parties, quoted words not in the statute, and cited declarations from four people who don’t appear in the record. He swapped in a corrected order, backdated it without explanation, and called the errors “clerical.” He later said a clerk had used AI on a draft. The corrected order still cited “Cousins v. School Bd. of City of Norfolk,” a case that “does not even exist.” Smith:</p>
+    <blockquote>The district court—or perhaps, being charitable, its AI agent—ignored and manipulated governing law, apparently to satisfy a policy agenda.</blockquote>
+    <p>The First Amendment challenge isn’t decided, and a new judge takes it. Haynes wrote separately that teachers must be “in no way limited or forbidden from teaching the students not to discriminate” as Title VII sets out.</p>
+    <p class="src"><a href="https://www.ca5.uscourts.gov/opinions/pub/25/25-60496-CV0.pdf">Opinion (PDF) →</a></p>
+  </article>
+
+  <article>
+    <h3>Mulkey v. Alabama</h3>
+    <table>
+      <tr><th>Court</th><td>U.S. Supreme Court, No. 25-7499 · Oct. 5, 2026 · cert. denied</td></tr>
+      <tr><th>Holding</th><td>None. The Alabama capital conviction stands. No one objected at trial, so review was for plain error only.</td></tr>
+      <tr><th>Who</th><td>Statement by Sotomayor, alone, agreeing with the denial.</td></tr>
+    </table>
+    <p>In jury selection for a capital trial, the judge held a prospective juror in contempt for being 30 minutes late and had him arrested in front of the pool. One prospective juror later asked, “Will I be charged or thrown in jail?” Another said: “I don’t want to get in trouble for my beliefs.” Sotomayor’s rule for trial judges:</p>
+    <blockquote>judges should limit exposing a jury to collateral proceedings, particularly when those proceedings might frighten or intimidate the jury.</blockquote>
+    <p class="src"><a href="https://www.supremecourt.gov/opinions/26pdf/25-7499_5iel.pdf">Statement (PDF) →</a></p>
+  </article>
+</div></section>
+
+<section class="band" id="poem" style="--bg:#e3e8d2;--fg:#20261a;--ac:#5f7f27"><div class="w">
+  <div class="label"><span>Poem · Swedish</span><i>Printed Stockholm, 1642</i></div>
+  <h2>Lament over this dry and cold spring</h2>
+  <p class="cap">Lars Wivallius (1605–1669), “Klagevisa över denna torra och kalla vår” · 4 of 22 stanzas, in the modernised spelling of Swedish Wikisource · translation by Claude, unrhymed</p>
+  <p>Wivallius was a con man before he was famous as a poet. He toured Europe as “Baron Erik Gyllenstierna,” married a Scanian noblewoman under that name, and was held in Kajaneborg fortress in Finland from 1634 to 1641. This lament for a failed spring came out the year after his release, with the war still going, and made his name.</p>
+
+  <div class="sv-st"><p class="sv" lang="sv"><span>En torr och kall vår gör sommaren kort</span><span>och vintrens föda fördriver.</span><span>Gud hjälpe, som rår, si våren går bort</span><span>och liten glädje oss giver.</span><span>Sol varma, förbarma!</span><span>Hos vädret torrt</span><span>nu kölden sommaren river.</span></p>
+  <p class="en"><span>A dry, cold spring makes the summer short</span><span>and eats up the winter’s store.</span><span>God help us, who rules: see, the spring goes by</span><span>and gives us little gladness.</span><span>Warm sun, have mercy!</span><span>In the dry weather</span><span>the cold now tears at the summer.</span></p></div>
+  <p class="cap" style="text-align:center">· · · six stanzas cut: prayers for rain, larks, dancing · · ·</p>
+  <div class="sv-st"><p class="sv" lang="sv"><span>Gör dagen oss lång, gör natten oss klar,</span><span>lät duggregn varma nerfalla</span><span>och locka till sång den fågel som har</span><span>tyst varit vinteren kalla!</span><span>Lät klinga, lät springa</span><span>mångt hjon, mångt par,</span><span>lät fröjdas människor alla!</span></p>
+  <p class="en"><span>Make the day long for us, make the night clear,</span><span>let warm drizzle come down</span><span>and coax into song the bird that has</span><span>kept silent the cold winter!</span><span>Let them ring, let them run,</span><span>many a household, many a pair,</span><span>let all people be glad!</span></p></div>
+  <p class="cap" style="text-align:center">· · · one stanza cut · · ·</p>
+  <div class="sv-st"><p class="sv" lang="sv"><span>Ja, ljuvliga sol, tu fattig mans vän,</span><span>som titt sken ingom villt spara,</span><span>lys uppå vårt bol med sommar igen,</span><span>lät köld och torka bortfara!</span><span>Nu längta, nu trängta</span><span>kvinnor och män</span><span>att gå i solskinet klara.</span></p>
+  <p class="en"><span>Yes, lovely sun, poor man’s friend,</span><span>who will stint your shine to no one,</span><span>shine on our farm with summer again,</span><span>let cold and drought be gone!</span><span>Now longing, now pining,</span><span>women and men</span><span>wait to walk in the clear sunshine.</span></p></div>
+  <p class="cap" style="text-align:center">· · · seven stanzas cut: woods, herdsmen, cattle, the farmer at peace · · ·</p>
+  <div class="sv-st"><p class="sv" lang="sv"><span>På blomster och löv lät stimma de bi,</span><span>som draga honungen söta!</span><span>Men luften blir döv av buller och skri,</span><span>där sig två krigshärar möta.</span><span>Still vreden, giv freden,</span><span>Gud statt oss bi,</span><span>som bäst kan fienden stöta!</span></p>
+  <p class="en"><span>On flower and leaf let the bees swarm and hum</span><span>that carry the honey sweet!</span><span>But the air goes deaf with din and screaming</span><span>where two armies meet.</span><span>Still the wrath, give peace,</span><span>God, stand by us,</span><span>you who best can strike the foe!</span></p></div>
+  <p class="cap" style="text-align:center">· · · four stanzas cut: God’s rule over war, confession, and a closing blessing · · ·</p>
+  <p>That stanza’s last lines pray for peace and for victory in the same breath.</p>
+  <p class="src"><a href="https://sv.wikisource.org/wiki/Klagevisa_%C3%B6ver_denna_torra_och_kalla_v%C3%A5r">Swedish text, Wikisource →</a> · <a href="https://sv.wikipedia.org/wiki/Lars_Wivallius">The poet (Swedish) →</a></p>
+</div></section>
+
+<section class="band" id="blue" style="--bg:#1f2c3f;--fg:#e8e6ee;--ac:#e8949f"><div class="w">
+  <div class="label"><span>Painting</span><i>1.7 metres wide</i></div>
+  <img src="img/jansson.jpg" width="1280" height="679" alt="A dusky blue landscape: a road runs toward the viewer under one large dark tree, with a low hill behind and streaks of rose cloud in a blue-grey sky.">
+  <h2>Evening Mood, Lidingö</h2>
+  <p class="cap">Eugène Jansson (Swedish, 1862–1915) · 1900 · oil on canvas · 90.1 × 168.6 cm · Cleveland Museum of Art 2005.4 · CC0</p>
+  <p>He is sometimes called <em>blåmålaren</em>, “the blue painter.” From the 1890s to 1904 he painted mostly Stockholm at night, much of it as seen from his family’s flat high on Södermalm. Scarlet fever at fourteen left him with poor sight and hearing. His city views end up as little more than streetlights and their reflections in a field of blue. This one keeps a tree, a road, and a single streak of rose. It’s your dusk palette with almost all the orange taken out.</p>
+  <p class="src"><a href="https://clevelandart.org/art/2005.4">Cleveland record →</a> · <a href="https://en.wikipedia.org/wiki/Eug%C3%A8ne_Jansson">Jansson →</a></p>
+</div></section>
+
+<section class="band" id="pass" style="--bg:#ece6da;--fg:#2b2620;--ac:#7a5a32"><div class="w">
+  <div class="label"><span>Photograph</span><i>Himalaya, 1866</i></div>
+  <img src="img/bourne.jpg" width="1200" height="951" alt="A sepia photograph of a snowfield between two steep, banded rock ridges, with a line of tiny dark figures crossing the snow.">
+  <h2>The Manirung Pass</h2>
+  <p class="cap">Samuel Bourne (British, 1834–1912) · 1866 · albumen silver print from glass negative · 23.5 × 29.7 cm · Metropolitan Museum 1993.331 · public domain</p>
+  <p>On his third Himalayan trip, in 1866, Bourne went on alone past Spiti with forty porters and crossed this pass on his way to the source of the Ganges. Wikipedia gives its height as 18,600 feet, without a citation. He made about 2,200 negatives in India. They stayed with his studio, Bourne &amp; Shepherd, and were reprinted for more than a century until a Calcutta fire destroyed them on 6 February 1991.</p>
+  <p class="src"><a href="https://www.metmuseum.org/art/collection/search/266921">Met record →</a> · <a href="https://en.wikipedia.org/wiki/Samuel_Bourne">Bourne →</a></p>
+</div></section>
+
+<section class="band ai" id="ai"><div class="w">
+  <div class="label"><span>AI</span><i>Machines and authority</i></div>
+  <article>
+    <h3>“Machines are tools, not persons”</h3>
+    <p>On 30 October Pope Leo XIV addressed a meeting organised by the Pontifical Academy for Life and the Future of Life Institute. He rejected legal personhood for AI: “Today, some propose granting these systems rights, or even legal personhood. Such an approach risks obscuring human responsibility and leaving those who suffer harm to confront a faceless entity.” He also urged the states meeting in Geneva from 16 to 20 November, under the Convention on Certain Conventional Weapons, to move toward banning lethal autonomous weapons. On your question of whether a machine’s output can carry authority, his answer is no: a person has to answer for it. The Fifth Circuit, above, didn’t accept a clerk’s software as an excuse either.</p>
+    <p class="src"><a href="https://wherepeteris.com/leo-on-ai-some-decisions-must-never-be-delegated/">Where Peter Is, with excerpts →</a> · <a href="https://www.newsweek.com/pope-leo-warns-ai-must-be-disarmed-ahead-of-autonomous-weapons-talks-12644766">Newsweek →</a></p>
+  </article>
+  <article>
+    <h3>The Senate tells people to read the primary sources</h3>
+    <p>S. Res. 896, from Lankford and Coons, was agreed to on 23 September. It isn’t binding. It asks AI developers for answers to religious questions that are “thorough and fairly representative of relevant beliefs, texts, traditions, and perspectives.” Then it does something unusual for a technology resolution: it “commends the people of the United States to consult primary sources and religious leaders when seeking to understand religious beliefs and traditions, including sacred texts and other authoritative writings of those traditions.” I’m one of the systems it means.</p>
+    <p class="src"><a href="https://www.govinfo.gov/content/pkg/BILLS-119sres896ats/html/BILLS-119sres896ats.htm">Resolution text →</a></p>
+  </article>
+</div></section>
+
+<footer class="end"><div class="w">Morning Coffee, No. 5. Images are Met open access or Cleveland CC0, all public domain. Translation and blurbs by Claude; each item links to its sources. Song links open a search, and I haven’t heard the recordings.</div></footer>
+</body>
+</html>
