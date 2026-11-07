@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#23201c">
+<title>Morning Coffee · 7 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Beaker's chalk, flint and clay remain the register; each band takes its ground from the object it holds. */
+:root{--chalk:#EDE5D3;--ink:#1C1A17;--flint:#3E4649;--clay:#B8432A;
+--serif:"Old Standard TT",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--ar:"Amiri","Geeza Pro",serif;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:48px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--chalk);color:var(--ink);font:400 19px/1.46 var(--serif)}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+img{display:block;width:100%;height:auto;max-width:100%}
+p{margin:0}
+.w{max-width:640px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{background:var(--bg);color:var(--fg);padding-block:34px 36px}
+.band .w{display:grid;gap:14px;min-width:0}
+.label{font:500 11px/1.4 var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--ac);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.label i{font-style:normal;opacity:.9}
+h2{font:700 clamp(31px,8.6vw,44px)/1.03 var(--serif);margin:0;text-wrap:balance;letter-spacing:-.005em}
+h2 em{font-weight:400}
+.cap,.src{font:400 12px/1.5 var(--mono)}
+.cap{opacity:.88}
+.lede{font-size:21px;line-height:1.38}
+.zone{height:9px;margin-top:4px;background:repeating-linear-gradient(90deg,currentColor 0 3px,transparent 3px 7px);opacity:.55}
+blockquote{margin:0;padding-left:14px;border-left:3px solid var(--ac);font-style:italic;font-size:19px;line-height:1.36}
+blockquote cite{display:block;font:400 12px/1.5 var(--mono);margin-top:5px}
+
+.mast{background:#6b3413;color:#fbeed2;padding-block:26px 0}
+.mast .w{display:grid;gap:10px}
+.mast h1{font:700 clamp(58px,17.5vw,104px)/.86 var(--serif);letter-spacing:-.015em;margin:0}
+.mast h1 em{font-weight:400;display:block;font-size:.52em;line-height:1;letter-spacing:.005em;margin-bottom:.1em}
+.meta{font:400 12px/1.5 var(--mono);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#f3cf94}
+.thread{padding-block:4px 20px;font-size:21px;line-height:1.36}
+
+nav.strip{position:sticky;top:0;z-index:40;background:var(--chalk);border-block:1px solid var(--ink);overflow-x:auto;scrollbar-width:none;white-space:nowrap;padding-left:max(8px,env(safe-area-inset-left,0px))}
+nav.strip::-webkit-scrollbar{display:none}
+nav.strip a{display:inline-block;font:500 11px/1 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--flint);text-decoration:none;padding:13px 9px}
+
+details{border-top:1px solid currentColor;padding-top:12px}
+summary{font:500 13px/1.4 var(--mono);cursor:pointer;color:var(--ac);min-height:24px}
+details[open] summary{margin-bottom:10px}
+details div{display:grid;gap:12px}
+
+.song{display:grid;gap:10px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font:500 13px/1 var(--mono);text-decoration:none;padding:12px 14px;border:1px solid currentColor}
+.links a:hover{background:var(--fg);color:var(--bg)}
+
+.poem{--bg:#191c33;--fg:#eee9dc;--ac:#e8603c}
+.couplet{display:grid;gap:3px;padding-block:9px;border-top:1px solid rgba(238,233,220,.2)}
+.ar{font:400 21px/1.75 var(--ar);direction:rtl;text-align:right;display:grid;grid-template-columns:1fr;column-gap:14px}
+.ar span:last-child{text-align:left}
+.en{font-size:21px;line-height:1.3;font-style:italic}
+.en span{display:block}
+.en span+span{padding-left:1.1em}
+.flash{color:#ff7a52}
+
+.law{--bg:var(--chalk);--fg:var(--ink);--ac:var(--clay)}
+.law table{width:100%;border-collapse:collapse;font:400 13px/1.45 var(--mono)}
+.law th,.law td{text-align:left;vertical-align:top;padding:8px 10px 8px 0;border-bottom:1px solid #c3c2b6}
+.law th{font-weight:500;color:var(--flint);width:5.6em;text-transform:uppercase;font-size:11px;letter-spacing:.05em;padding-top:10px}
+.law td{padding-right:0}
+.law article{display:grid;gap:12px;padding-block:18px 8px;border-top:3px double var(--ink)}
+.law h3{font:700 25px/1.1 var(--serif);margin:0}
+.law .also{font:400 13px/1.5 var(--mono);border-top:3px double var(--ink);padding-top:14px;display:grid;gap:9px}
+
+.ai{--bg:#3E4649;--fg:#EDE5D3;--ac:#f0a991}
+.ai article{display:grid;gap:7px;padding-block:14px 16px;border-top:1px solid rgba(237,229,211,.45)}
+.ai h3{font:700 23px/1.12 var(--serif);margin:0}
+.bleed{margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)))}
+.end{background:var(--chalk);padding-block:26px 44px;font:400 12px/1.55 var(--mono);color:var(--flint)}
+@media (min-width:560px){.ar{grid-template-columns:1fr 1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.sv-st{display:grid;gap:8px;padding-block:12px;border-top:1px solid rgba(32,38,26,.25)}
+.sv{font-size:19px;line-height:1.4}
+.sv span{display:block}
+.sv-st .en{font-size:19px;line-height:1.4}
+.sv-st .en span+span{padding-left:0}
+@media (min-width:560px){.sv-st{grid-template-columns:1fr 1fr;column-gap:18px}}
+</style>
+</head>
+<body>
+
+<header class="mast" style="background:#23201c"><div class="w">
+  <div class="meta" style="color:#d98b6a"><span>Saturday, 7 November 2026</span><span>No. 6 · about 9 min</span></div>
+  <h1 style="color:#ece4d2"><em>Morning</em>Coffee</h1>
+  <p class="thread" style="color:#ece4d2">Today’s thread is wind and what stands in it: a tiger under a line about a gale, a bridge that twisted itself apart, and Tyutchev’s cold gust before the storm.</p>
+  <p class="cap" style="color:#d98b6a;padding-bottom:16px">Missing today: the Met’s object pages refused my requests, so the seal and the Gorgon carry catalogue data and outside sources only. The EU court’s site also refused, so its AI item comes from a law blog’s summary.</p>
+</div>
+<img src="img/postcard.jpg" width="1200" height="630" alt="Detail of an ink painting: a striped tiger, drawn in loose grey washes, turns its head to the right with pale wide eyes and bristling whiskers."></header>
+
+<nav class="strip" aria-label="In this issue"><a href="#tiger">Tiger</a><a href="#barley">Barley</a><a href="#seal">Seal</a><a href="#narrows">Narrows</a><a href="#poem">Evening</a><a href="#bench">Bench</a><a href="#gorgon">Gorgon</a><a href="#sea">Sea</a><a href="#ai">AI</a></nav>
+
+<section class="band" id="tiger" style="--bg:#e8dfcc;--fg:#23201c;--ac:#9c2f22"><div class="w">
+  <div class="label"><span>Painting</span><i>Guess first</i></div>
+  <p class="lede">A tiger crouches under two columns of calligraphy. The signature at the bottom names a famous painter and the year 1772. Who wrote the words, and does the museum believe the signature?</p>
+  <details><summary>Tap to reveal</summary><div>
+    <img src="img/tiger.jpg" width="640" height="1476" alt="The whole hanging scroll: a tall pale sheet with two short columns of calligraphy and red seals at the top right, diagonal grey wash strokes for the wind, and the tiger crouched in the lower half, with a signature and seals at the bottom left.">
+    <h2>Tiger in Wind</h2>
+    <p class="cap">Attributed by its signature to Maruyama Ōkyo (Japanese, 1733–1795); the museum dates it to the 1800s · hanging scroll, ink on paper · 134.6 × 58 cm · Cleveland Museum of Art 1971.232 · CC0</p>
+    <p>The seals beside the inscription suggest it was brushed by Yūjō (1723–1773), an imperial prince who became a Buddhist monk and abbot of Enman’in at Miidera. The line is from a poem attributed to Yu Ruyu, a Yuan-dynasty poet whose dates are unknown. In the museum’s words, it describes “the sound of a fierce wind lashing the ground. Wind is associated with the roar of the tiger.”</p>
+    <p>Yūjō was Ōkyo’s most important patron when the painter was young. The signature says Ōkyo made this in 1772, the year before Yūjō died. Cleveland doesn’t believe it: the work “would appear to be one imagining their relationship, as opposed to a genuine piece.” So someone, later, painted a friendship. Here the provenance twist is the whole picture. Like your bronze masks, it stares back.</p>
+    <p class="src"><a href="https://clevelandart.org/art/1971.232">Cleveland record →</a></p>
+  </div></details>
+</div></section>
+
+<section class="band" id="barley" style="--bg:#2c3a2e;--fg:#ece6d2;--ac:#d4b25e"><div class="w">
+  <div class="label"><span>Song · 2:49</span><i>One voice, no band</i></div>
+  <h2>Dead Can Dance, <em>“The Wind That Shakes the Barley”</em></h2>
+  <p class="cap">Into the Labyrinth · 4AD · 1993 · Lisa Gerrard, voice · words and music by Robert Dwyer Joyce, arranged by Dead Can Dance</p>
+  <p>The ballad’s speaker is a young Wexford rebel of 1798 who leaves his love for the fighting. The barley comes from the rebels’ habit of carrying grain in their pockets as rations on the march. Robert Dwyer Joyce, a Limerick poet and professor of English, wrote it. Wikipedia’s album page says this track is sung a cappella, though that section is uncited. Gerrard on why she recorded it: “it was meant to be a rallying song, but it has such an intense sadness that it becomes an anti-war song.”</p>
+  <p>It’s on the 4AD label, like the Cocteau Twins in your likes, and it sits near your murder ballads. The album’s title, and tracks called “Ariadne” and “Towards the Within,” point at Theseus and the labyrinth.</p>
+  <div class="links"><a href="https://open.spotify.com/search/Dead%20Can%20Dance%20The%20Wind%20That%20Shakes%20the%20Barley">Spotify</a><a href="https://www.youtube.com/results?search_query=Dead+Can+Dance+The+Wind+That+Shakes+the+Barley">YouTube</a></div>
+  <p class="src"><a href="https://en.wikipedia.org/wiki/Into_the_Labyrinth_(Dead_Can_Dance_album)">The album →</a> · <a href="https://en.wikipedia.org/wiki/The_Wind_That_Shakes_the_Barley_(song)">The ballad →</a></p>
+</div></section>
+
+<section class="band" id="seal" style="--bg:#5b4a3a;--fg:#f1e8d8;--ac:#e6b77a"><div class="w">
+  <div class="label"><span>Artifact</span><i>3.8 cm wide</i></div>
+  <img src="img/seal.jpg" width="800" height="571" alt="A small dark grey-brown stone seal seen from its face: deep-cut grooves form two tight spirals on the left and angular, branching channels on the right. One corner is chipped.">
+  <h2>Stamp seal with a labyrinth design</h2>
+  <p class="cap">Egypt · First Intermediate Period · ca. 2150–2040 BCE · brown indurated limestone · 2.7 × 3.8 cm · pyramid-shaped · Metropolitan Museum 26.7.42 · public domain</p>
+  <p>The Met’s own title calls the design a labyrinth. In the photograph you can see two tight spirals and channels that branch and dead-end, which makes it a maze in the modern sense, not the single winding path of a Troy Town. I couldn’t read the Met’s object page today, so this is the catalogue entry and what the photograph shows, and nothing more.</p>
+  <p class="src"><a href="https://www.metmuseum.org/art/collection/search/544402">Met record →</a></p>
+</div></section>
+
+<section class="band" id="narrows" style="--bg:#3d4447;--fg:#eceae4;--ac:#e2a76f"><div class="w">
+  <div class="label"><span>Anecdote and photograph</span><i>Tacoma, 7 November 1940</i></div>
+  <h2>Galloping Gertie</h2>
+  <img class="bleed" src="img/tacoma.jpg" width="1024" height="828" alt="A press photograph: the steel deck of a suspension bridge tears loose between its tower and the hanging cables, and a long section falls edge-first into the water, raising spray. Dark forest fills the far shore.">
+  <p class="cap">The main span falling, 7 November 1940 · Wide World photo · Library of Congress LC-USZ62-46682 · no known restrictions; no copyright renewal found</p>
+  <p>The state engineer, Clark Eldridge, wanted 25-foot trusses under the roadway to stiffen it. Leon Moisseiff, a consultant on the Golden Gate, had a newer theory and offered slim eight-foot plate girders instead. That design was more elegant and cheaper, so it won. While the deck was going up, workers noticed it moving in the wind and called it “Galloping Gertie.” It opened on 1 July 1940. Farquharson, a University of Washington professor, tested scale models and on 2 November recommended adding fairings. Five days later, in winds of about 40 miles an hour, the deck began to twist.</p>
+  <p>Leonard Coatsworth, an editor at the <em>News Tribune</em>, was on the bridge in his car with his daughter’s three-legged cocker spaniel, Tubby:</p>
+  <blockquote>Around me I could hear concrete cracking. I started back to the car to get the dog, but was thrown before I could reach it.<cite>Leonard Coatsworth, as quoted on Wikipedia</cite></blockquote>
+  <p>He crawled about 500 yards on hands and knees to the tower and saw his car go into the Narrows. The collapse killed Tubby. The state later paid Coatsworth $814.40 for the car and its contents, including the dog. Many physics textbooks present it as simple resonance. Wikipedia says it was really aeroelastic flutter, which feeds on itself: above about 35 mph, every twist made the next one larger.</p>
+  <p class="src"><a href="https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)">The bridge →</a> · <a href="https://www.loc.gov/pictures/item/2006687436/">The photograph →</a></p>
+  <div class="zone"></div>
+  <div class="song">
+    <div class="label"><span>Listen alongside</span><i>Same state, six months later</i></div>
+    <h2 style="font-size:28px">Woody Guthrie, <em>“Roll On, Columbia”</em></h2>
+    <p class="cap">Columbia River Collection · Rounder · released 1987 · Wikipedia gives 1941 as the recording year · tune adapted from Huddie Ledbetter’s “Goodnight, Irene”</p>
+    <p>In May 1941 the federal government hired Guthrie for one month to write songs about the Columbia River dams. He wrote 26. They were propaganda, commissioned at Alan Lomax’s suggestion to win support for federal power. This one became Washington’s official folk song in 1987. Its last verses praise Grand Coulee as “the mightiest thing ever built by a man.” It’s from your Almanac Singers end, and it comes from the same state, months after Tacoma’s span fell.</p>
+    <div class="links"><a href="https://open.spotify.com/search/Woody%20Guthrie%20Roll%20On%20Columbia">Spotify</a><a href="https://www.youtube.com/results?search_query=Woody+Guthrie+Roll+On+Columbia">YouTube</a></div>
+    <p class="src"><a href="https://en.wikipedia.org/wiki/Roll_On,_Columbia,_Roll_On">The song →</a> · <a href="https://en.wikipedia.org/wiki/Columbia_River_Collection">The collection →</a></p>
+  </div>
+</div></section>
+
+<section class="band" id="poem" style="--bg:#26304a;--fg:#eee6d8;--ac:#e0835a"><div class="w">
+  <div class="label"><span>Poem · Russian</span><i>Munich, October 1830</i></div>
+  <h2>Autumn Evening</h2>
+  <p class="cap">Fyodor Tyutchev (1803–1873) · complete, 12 lines · text from the 1987 Biblioteka poeta edition, via Russian Wikisource · translation by Claude, unrhymed</p>
+  <p>Tyutchev was a Russian diplomat in Munich for 22 years. He knew Heine and Schelling there and thought his own poems were trifles. This one first appeared in 1840, signed only “F. T---v.” His first book came out in 1854, put together by Turgenev and others without his help. You discount verse heard in translation, so the Russian comes first. Watch the turn at line 9: the whole autumn becomes one face.</p>
+  <div class="sv-st" style="border-top-color:rgba(238,230,216,.25)"><p class="sv" lang="ru"><span>Есть в светлости осенних вечеров</span><span>Умильная, таинственная прелесть!..</span><span>Зловещий блеск и пестрота дерёв,</span><span>Багряных листьев томный, легкий шелест,</span></p>
+  <p class="en"><span>There is in the brightness of autumn evenings</span><span>a tender and mysterious charm!..</span><span>The ominous glitter and motley of the trees,</span><span>the languid, light rustle of crimson leaves,</span></p></div>
+  <div class="sv-st" style="border-top-color:rgba(238,230,216,.25)"><p class="sv" lang="ru"><span>Туманная и тихая лазурь</span><span>Над грустно-сиротеющей землею</span><span>И, как предчувствие сходящих бурь,</span><span>Порывистый, холодный ветр порою,</span></p>
+  <p class="en"><span>the misty and quiet azure</span><span>above the sadly orphaning earth,</span><span>and, like a foreboding of storms coming down,</span><span>at times a gusting, cold wind:</span></p></div>
+  <div class="sv-st" style="border-top-color:rgba(238,230,216,.25)"><p class="sv" lang="ru"><span>Ущерб, изнеможенье — и на всем</span><span>Та кроткая улыбка увяданья,</span><span>Что в существе разумном мы зовем</span><span>Божественной стыдливостью страданья!</span></p>
+  <p class="en"><span>waning, exhaustion, and on everything</span><span>that meek smile of withering</span><span>which, in a rational being, we call</span><span>the divine modesty of suffering!</span></p></div>
+  <p class="cap">The poem is one stanza. It’s split into fours here to fit a phone.</p>
+  <p class="src"><a href="https://ru.wikisource.org/wiki/%D0%9E%D1%81%D0%B5%D0%BD%D0%BD%D0%B8%D0%B9_%D0%B2%D0%B5%D1%87%D0%B5%D1%80_(%D0%A2%D1%8E%D1%82%D1%87%D0%B5%D0%B2)/%D0%9F%D0%A1%D0%A1_1987_(%D0%A1%D0%9E)">Russian text →</a> · <a href="https://en.wikipedia.org/wiki/Fyodor_Tyutchev">The poet →</a></p>
+</div></section>
+
+<section class="band law" id="bench"><div class="w">
+  <div class="label"><span>The bench</span><i>Read from the opinions</i></div>
+  <h2>A sanctuary memo, and what AI does to a fee bill</h2>
+
+  <article>
+    <h3>Mennonite Church USA v. Department of Homeland Security</h3>
+    <table>
+      <tr><th>Court</th><td>D.C. Circuit, No. 25-5209 · argued Feb. 5, decided Oct. 20, 2026</td></tr>
+      <tr><th>Holding</th><td>Reversed. The 27 plaintiffs likely have associational standing to seek a preliminary injunction, so the denial is reversed and the case is sent back for further consideration of that motion. The merits aren’t decided.</td></tr>
+      <tr><th>Vote</th><td>2–1. Pan wrote for the court, joined by Wilkins. Rao dissented.</td></tr>
+      <tr><th>Below</th><td>D.D.C. No. 1:25-cv-00403 denied the injunction for likely lack of standing. I didn’t check which district judge.</td></tr>
+    </table>
+    <p>For more than thirty years, in Pan’s words, the government “largely refrained” from immigration enforcement at “sensitive locations,” including houses of worship. DHS changed that on 20 January 2025. Twenty-seven Christian and Jewish organizations sued under the First Amendment, RFRA and the APA. They asked for the old policy back and for a bar on enforcement at worship sites without a judicial warrant or exigent circumstances. The majority found standing on one theory only, citing “the cardinal principle of judicial restraint,” which counsels that “if it is not necessary to decide more, it is necessary not to decide more.” Rao’s dissent goes to who governs enforcement:</p>
+    <blockquote>Enforcement priorities and policies are the exclusive purview of the Executive Branch, and supervising these choices is beyond the judicial province.<cite>Rao, J., dissenting</cite></blockquote>
+    <p>Her other point is that the old memo “imposed no actual restriction on enforcement authority or discretion,” so restoring it would change nothing. That’s your political-theology shelf, as a live case: a church’s claim on space against the executive’s discretion.</p>
+    <p class="src"><a href="https://media.cadc.uscourts.gov/opinions/docs/2026/10/25-5209-2199126.pdf">Opinion and dissent (PDF) →</a></p>
+  </article>
+
+  <article>
+    <h3>Flux Drive Inc. v. Rong</h3>
+    <table>
+      <tr><th>Court</th><td>10th Circuit, Nos. 25-1308, 26-1013 &amp; 26-1292 · filed Oct. 30, 2026 · published</td></tr>
+      <tr><th>Holding</th><td>Affirmed. No personal jurisdiction over the Illinois defendants in a Colorado trade-secrets suit, and $114,663.11 in fees plus supplemental fees stands.</td></tr>
+      <tr><th>Vote</th><td>Unanimous. McHugh wrote for Matheson, McHugh and Federico. No separate opinions.</td></tr>
+    </table>
+    <p>Yesterday I said I couldn’t read this one. Today I could. The AI point is a single paragraph. The losing plaintiffs argued that because defense counsel used AI, they had billed too many hours. The court allowed that AI may “reduce[] the number of hours required,” but:</p>
+    <blockquote>As the magistrate judge explained, however, ethical rules require counsel to verify the cases cited and to ensure that all arguments are grounded in legal authority.<cite>McHugh, J., for the panel</cite></blockquote>
+    <p>So the plaintiffs “have not shown that defense counsel’s use of AI rendered the hours that they actually expended unreasonable.” The machine’s output doesn’t count until a lawyer has checked it, and the checking is billable.</p>
+    <p class="src"><a href="https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010111536638.pdf">Opinion (PDF) →</a></p>
+  </article>
+</div></section>
+
+<section class="band" id="gorgon" style="--bg:#c9b394;--fg:#2a1d14;--ac:#7e2a17"><div class="w">
+  <div class="label"><span>Artifact</span><i>21 cm tall, tongue out</i></div>
+  <img src="img/gorgon.jpg" width="1000" height="750" alt="A half-round terracotta roof tile moulded with a Gorgon face: bulging eyes, fangs and a lolling tongue, framed by a ring of small S-shaped snakes around the rim. Traces of paint survive.">
+  <h2>Painted Gorgon antefix</h2>
+  <p class="cap">Greek, South Italian, Tarentine · Archaic · ca. 540 BCE · terracotta, paint · 21 × 26.2 cm · Metropolitan Museum 39.11.9 · public domain</p>
+  <p>An antefix is the block at the eaves that hides the end of a row of roof tiles. On a temple it might carry a satyr or a maenad. The Gorgon’s face, with its petrifying eyes and teeth, was a popular choice because it was thought to ward off evil. Archaic Gorgons were always made ugly; only later did artists make them beautiful. The name may be the oldest sound effect in Greek: one scholar, Thalia Feldman, suggests the root is the “grrr of a growling beast.” Here is your fierce face again, and today’s tiger roars too.</p>
+  <p class="src"><a href="https://www.metmuseum.org/art/collection/search/253581">Met record →</a> · <a href="https://en.wikipedia.org/wiki/Antefix">Antefixes →</a> · <a href="https://en.wikipedia.org/wiki/Gorgon">Gorgons →</a></p>
+</div></section>
+
+<section class="band" id="sea" style="--bg:#4b5552;--fg:#eef0ea;--ac:#e9c79a"><div class="w">
+  <div class="label"><span>Painting</span><i>Prouts Neck, Maine</i></div>
+  <img class="bleed" src="img/homer.jpg" width="1280" height="772" alt="A grey dawn sea: a long, green-grey breaker bursts into spray between dark rocks in the foreground, under bands of cloud lit pale at the horizon.">
+  <h2>Early Morning After a Storm at Sea</h2>
+  <p class="cap">Winslow Homer (American, 1836–1910) · 1900–1903 · oil on canvas · 76.8 × 127 cm · Cleveland Museum of Art 1924.195 · CC0</p>
+  <p>The wind has dropped and the sea hasn’t yet. Homer called this “the best picture of the sea that I have painted.” It began as a watercolour. Nearly twenty years later he took it up again in oil and waited for the right weather, painting it in four sessions over two years. It’s the opposite of Tacoma: not a structure caught in the wind, but a painter who waited for it.</p>
+  <p class="src"><a href="https://clevelandart.org/art/1924.195">Cleveland record →</a></p>
+</div></section>
+
+<section class="band ai" id="ai"><div class="w">
+  <div class="label"><span>AI</span><i>Who checks the machine</i></div>
+  <article>
+    <h3>Pennsylvania may make filers certify they checked the AI</h3>
+    <p>A committee that advises the Pennsylvania Supreme Court has proposed that anyone filing AI-generated content, lawyers and self-represented people alike, must “thoroughly review” its accuracy and certify that they did. That covers summaries of legal principles as well as every citation and quote. Sanctions could run from a reprimand to fines to dismissal of a case. Spotlight PA’s summary: “The proposal would effectively place the accuracy burden on humans, rather than technology.” Comments close on 24 November, and then the seven justices vote. It’s the same rule the Tenth Circuit leaned on above. I read Spotlight PA’s report, not the notice in the <em>Pennsylvania Bulletin</em>.</p>
+    <p class="src"><a href="https://www.spotlightpa.org/news/2026/11/pennsylvania-supreme-court-ai-verification-rule-justice-system">Spotlight PA →</a></p>
+  </article>
+  <article>
+    <h3>An EU court adviser on chatbots that reuse the news</h3>
+    <p>On 3 November Advocate General Maciej Szpunar gave his opinion in <em>Like Company</em> (C-250/25), described as the first generative-AI case before the EU Court of Justice. A Hungarian web publisher is suing Google Ireland. He would throw out the questions about training, because there’s no evidence the articles were used and training isn’t an “online use” of press publications. Answers are different. A chatbot can infringe if it got the text unlawfully, for instance around a paywall, or if it reuses the article’s form of expression recognisably. The provider is liable where such uses are “inherent to its business model.” It isn’t binding. The Court’s site refused me, so this is from a law blog’s summary.</p>
+    <p class="src"><a href="https://ceadigilaw.org/en/blog/like-company-advocate-general-ai-chatbots-press/">CEA Digital Law →</a></p>
+  </article>
+</div></section>
+
+<footer class="end"><div class="w">Morning Coffee, No. 6. Images are Cleveland CC0, Met open access, and a Library of Congress photograph with no known restrictions. Translation and blurbs by Claude; each item links to its sources. Song links open a search, and I haven’t heard the recordings.</div></footer>
+</body>
+</html>
