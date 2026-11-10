@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#3a1712">
+<title>Morning Coffee · 10 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Beaker's chalk, flint and clay remain the register; each band takes its ground from the object it holds. */
+:root{--chalk:#EDE5D3;--ink:#1C1A17;--flint:#3E4649;--clay:#B8432A;
+--serif:"Old Standard TT",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--ar:"Amiri","Geeza Pro",serif;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:48px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--chalk);color:var(--ink);font:400 19px/1.46 var(--serif)}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+img{display:block;width:100%;height:auto;max-width:100%}
+p{margin:0}
+.w{max-width:640px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{background:var(--bg);color:var(--fg);padding-block:34px 36px}
+.band .w{display:grid;gap:14px;min-width:0}
+.label{font:500 11px/1.4 var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--ac);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.label i{font-style:normal;opacity:.9}
+h2{font:700 clamp(31px,8.6vw,44px)/1.03 var(--serif);margin:0;text-wrap:balance;letter-spacing:-.005em}
+h2 em{font-weight:400}
+.cap,.src{font:400 12px/1.5 var(--mono)}
+.cap{opacity:.88}
+.lede{font-size:21px;line-height:1.38}
+.zone{height:9px;margin-top:4px;background:repeating-linear-gradient(90deg,currentColor 0 3px,transparent 3px 7px);opacity:.55}
+blockquote{margin:0;padding-left:14px;border-left:3px solid var(--ac);font-style:italic;font-size:19px;line-height:1.36}
+blockquote cite{display:block;font:400 12px/1.5 var(--mono);margin-top:5px}
+
+.mast{background:#6b3413;color:#fbeed2;padding-block:26px 0}
+.mast .w{display:grid;gap:10px}
+.mast h1{font:700 clamp(58px,17.5vw,104px)/.86 var(--serif);letter-spacing:-.015em;margin:0}
+.mast h1 em{font-weight:400;display:block;font-size:.52em;line-height:1;letter-spacing:.005em;margin-bottom:.1em}
+.meta{font:400 12px/1.5 var(--mono);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#f3cf94}
+.thread{padding-block:4px 20px;font-size:21px;line-height:1.36}
+
+nav.strip{position:sticky;top:0;z-index:40;background:var(--chalk);border-block:1px solid var(--ink);overflow-x:auto;scrollbar-width:none;white-space:nowrap;padding-left:max(8px,env(safe-area-inset-left,0px))}
+nav.strip::-webkit-scrollbar{display:none}
+nav.strip a{display:inline-block;font:500 11px/1 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--flint);text-decoration:none;padding:13px 9px}
+
+details{border-top:1px solid currentColor;padding-top:12px}
+summary{font:500 13px/1.4 var(--mono);cursor:pointer;color:var(--ac);min-height:24px}
+details[open] summary{margin-bottom:10px}
+details div{display:grid;gap:12px}
+
+.song{display:grid;gap:10px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font:500 13px/1 var(--mono);text-decoration:none;padding:12px 14px;border:1px solid currentColor}
+.links a:hover{background:var(--fg);color:var(--bg)}
+
+.poem{--bg:#191c33;--fg:#eee9dc;--ac:#e8603c}
+.couplet{display:grid;gap:3px;padding-block:9px;border-top:1px solid rgba(238,233,220,.2)}
+.ar{font:400 21px/1.75 var(--ar);direction:rtl;text-align:right;display:grid;grid-template-columns:1fr;column-gap:14px}
+.ar span:last-child{text-align:left}
+.en{font-size:21px;line-height:1.3;font-style:italic}
+.en span{display:block}
+.en span+span{padding-left:1.1em}
+.flash{color:#ff7a52}
+
+.law{--bg:var(--chalk);--fg:var(--ink);--ac:var(--clay)}
+.law table{width:100%;border-collapse:collapse;font:400 13px/1.45 var(--mono)}
+.law th,.law td{text-align:left;vertical-align:top;padding:8px 10px 8px 0;border-bottom:1px solid #c3c2b6}
+.law th{font-weight:500;color:var(--flint);width:5.6em;text-transform:uppercase;font-size:11px;letter-spacing:.05em;padding-top:10px}
+.law td{padding-right:0}
+.law article{display:grid;gap:12px;padding-block:18px 8px;border-top:3px double var(--ink)}
+.law h3{font:700 25px/1.1 var(--serif);margin:0}
+.law .also{font:400 13px/1.5 var(--mono);border-top:3px double var(--ink);padding-top:14px;display:grid;gap:9px}
+
+.ai{--bg:#3E4649;--fg:#EDE5D3;--ac:#f0a991}
+.ai article{display:grid;gap:7px;padding-block:14px 16px;border-top:1px solid rgba(237,229,211,.45)}
+.ai h3{font:700 23px/1.12 var(--serif);margin:0}
+.bleed{margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)))}
+.end{background:var(--chalk);padding-block:26px 44px;font:400 12px/1.55 var(--mono);color:var(--flint)}
+.sv-st{display:grid;gap:8px;padding-block:12px;border-top:1px solid rgba(238,230,214,.25)}
+.sv{font-size:19px;line-height:1.45}
+.sv span{display:block}
+.sv span:nth-child(even){padding-left:1.1em}
+.sv-st .en{font-size:19px;line-height:1.4}
+@media (min-width:560px){.ar{grid-template-columns:1fr 1fr}.sv-st{grid-template-columns:1fr 1fr;column-gap:18px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="mast" style="background:#3a1712"><div class="w">
+  <div class="meta" style="color:#f2a65a"><span>Tuesday, 10 November 2026</span><span>No. 8 · about 9 min</span></div>
+  <h1 style="color:#fbe6cf"><em>Morning</em>Coffee</h1>
+  <p class="thread" style="color:#fbe6cf">Today’s thread is whose words these are: an expert’s report drafted by Copilot, climate statements a state would put in companies’ mouths, and a songwriter who changed his own line when the evidence changed.</p>
+  <p class="cap" style="color:#f2a65a;padding-bottom:16px">Missing today: the Met’s web pages and Wikimedia Commons refused my requests, so every picture here comes from Cleveland or the Library of Congress.</p>
+</div>
+<img src="img/postcard.jpg" width="1200" height="675" alt="Detail of a painting: a sky streaked with blazing red and orange cloud over dark wooded hills, a yellow band of light at the horizon reflected in a river."></header>
+
+<nav class="strip" aria-label="In this issue"><a href="#twilight">Twilight</a><a href="#sol">Sol</a><a href="#conch">Conch</a><a href="#holding">Holding</a><a href="#poem">Kiều</a><a href="#bench">Bench</a><a href="#warrior">Warrior</a><a href="#room">Room</a><a href="#locks">Locks</a><a href="#ai">AI</a></nav>
+
+<section class="band" id="twilight" style="--bg:#3a1712;--fg:#fbe6cf;--ac:#f2a65a"><div class="w">
+  <div class="label"><span>Painting</span><i>Guess first</i></div>
+  <p class="lede">A sky on fire over dark wilderness. Where is it, what year was it painted, and how did the painter first show it to the public?</p>
+  <details><summary>Tap to reveal</summary><div>
+    <img src="img/twilight.jpg" width="1280" height="799" alt="A wide landscape at sunset: torn red and orange clouds fill most of the sky above dark forested hills and a river reflecting yellow light. A bare tree stands at the right edge.">
+    <h2>Twilight in the Wilderness</h2>
+    <p class="cap">Frederic Edwin Church (American, 1826–1900) · 1860 · oil on canvas · 101.6 × 162.6 cm · Cleveland Museum of Art 1965.233 · CC0</p>
+    <p>Maine, near Mount Katahdin, painted in Church’s New York studio from a sketch made nearly two years earlier. Instead of debuting it at an annual exhibition with other artists, as was the custom, Church showed it alone at a prestigious gallery; several hundred people came during its seven-week run.</p>
+    <p>Cleveland notes the date, on the eve of the Civil War, and says the subject “can be interpreted as symbolically evoking the coming conflagration.” It also has a cameo in <em>Clear and Present Danger</em>. Orange against blue is the most common palette in your saved images. This is that palette at full volume.</p>
+    <p class="src"><a href="https://clevelandart.org/art/1965.233">Cleveland record →</a></p>
+  </div></details>
+</div></section>
+
+<section class="band" id="sol" style="--bg:#c9862f;--fg:#22140a;--ac:#5a1f0b"><div class="w">
+  <div class="label"><span>Song · 2:54</span><i>Rio de Janeiro, 1972</i></div>
+  <h2>Arthur Verocai, <em>“Na Boca do Sol”</em></h2>
+  <p class="cap">Arthur Verocai · Continental SLP-10.079 · 1972 · written by Victor Martins and Arthur Verocai</p>
+  <p>Near Hareton Salvanini in your likes, with a provenance story. Verocai studied civil engineering, and was producing albums for Elis Regina, Jorge Ben and Ivan Lins when he made his own, which he calls “samba mixed with soul.” It was largely ignored and sold very few copies. He stopped composing for 30 years and arranged advertising jingles instead.</p>
+  <p>Then hip-hop found it. MF Doom sampled this track for “Orris Root Powder” in 2005, and Madlib said, “I could listen to this album everyday for the rest of my life.” Discogs puts the median price of an original LP at $2,594. I haven’t heard it.</p>
+  <div class="links"><a href="https://open.spotify.com/search/Arthur%20Verocai%20Na%20Boca%20do%20Sol">Spotify</a><a href="https://www.youtube.com/results?search_query=Arthur+Verocai+Na+Boca+do+Sol">YouTube</a></div>
+  <p class="src"><a href="https://en.wikipedia.org/wiki/Arthur_Verocai_(album)">The album →</a> · <a href="https://en.wikipedia.org/wiki/Arthur_Verocai">Verocai →</a></p>
+</div></section>
+
+<section class="band" id="conch" style="--bg:#d9d6d1;--fg:#1f2421;--ac:#3f6b5a"><div class="w">
+  <div class="label"><span>Artifact</span><i>35 cm tall</i></div>
+  <img src="img/conch.jpg" width="900" height="1252" alt="A pale conch shell standing upright in a bronze mount with green patina. A small many-armed dancing figure is worked into the bronze on its side, and the mount rests on three legs shaped like serpents.">
+  <h2>Conch shell with a figure of Hevajra</h2>
+  <p class="cap">Cambodia, Khmer, Angkor period · 1100s · shell and bronze · Cleveland Museum of Art 1977.176 · CC0</p>
+  <p>An instrument and a sacred image at once. Cleveland says conches were blown at the start of rituals in royal temples like Banteay Chhmar, to make the sound of the syllable <em>om</em>. Worked into the bronze is Hevajra, dancing, with eight heads, sixteen arms and four legs. The three-serpent stand is probably not original.</p>
+  <p>Your likes run to Cambodian pop of the 1960s; this is Cambodia some eight centuries earlier. The provenance names only Spink &amp; Son, London, the seller, with no date or find-spot.</p>
+  <p class="src"><a href="https://clevelandart.org/art/1977.176">Cleveland record →</a></p>
+</div></section>
+
+<section class="band" id="holding" style="--bg:#16202a;--fg:#e6edf0;--ac:#e9a23b"><div class="w">
+  <div class="label"><span>Anecdote</span><i>Lake Superior, 10 November 1975</i></div>
+  <h2>We are holding our own</h2>
+  <p>Fifty-one years ago tonight, the <em>Edmund Fitzgerald</em>, the largest ship ever lost on the Great Lakes, was carrying 26,116 long tons of taconite pellets from Superior, Wisconsin, to a steel mill near Detroit. The forecast was ordinary for November. One captain, Dudley Paquette of the <em>Wilfred Sykes</em>, read the weather differently and kept to the shelter of the north shore.</p>
+  <p>By late afternoon the <em>Fitzgerald</em> had lost two vent covers, then both radars, and was steering by the <em>Arthur M. Anderson</em>’s. The beacon at Whitefish Point was out. Captain Ernest McSorley told another ship: “I have a ‘bad list’, I have lost both radars, and am taking heavy seas over the deck in one of the worst seas I have ever been in.” At about 7:10 the <em>Anderson</em> asked how she was doing.</p>
+  <blockquote>We are holding our own.</blockquote>
+  <p>Ten minutes later she was gone from radio and radar, with all 29 men and no distress call. When the <em>Anderson</em> reached the Coast Guard, the officer asked it to watch for a lost 16-foot boat. A petty officer later testified: “I considered it serious, but at the time it was not urgent.”</p>
+  <p>Why she sank is still disputed. The Coast Guard blamed hatch covers not fully clamped, letting the hold flood slowly. The Lake Carriers’ Association objected. The NTSB found the hatch covers had collapsed under “giant boarding seas.”</p>
+  <p class="src"><a href="https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald">The wreck, citing the USCG and NTSB reports →</a></p>
+  <div class="zone"></div>
+  <div class="song">
+    <div class="label"><span>Listen alongside</span><i>A ballad that took a correction</i></div>
+    <h2 style="font-size:28px">Gordon Lightfoot, <em>“The Wreck of the Edmund Fitzgerald”</em></h2>
+    <p class="cap">Summertime Dream · 1976</p>
+    <p>Your narrative ballads, about the news. Lightfoot said he wrote it after <em>Newsweek</em> misspelled the ship “Edmond” two weeks after the sinking, which he felt dishonored the 29. His original line named a cause: “At 7 p.m. a main hatchway caved in.” In light of new evidence he changed it on stage to “At 7 p.m. it grew dark, it was then.” When he died in May 2023, Detroit’s Mariners’ Church tolled its bell 30 times: 29 for the crew, one for him.</p>
+    <div class="links"><a href="https://open.spotify.com/search/Gordon%20Lightfoot%20Wreck%20of%20the%20Edmund%20Fitzgerald">Spotify</a><a href="https://www.youtube.com/results?search_query=Gordon+Lightfoot+The+Wreck+of+the+Edmund+Fitzgerald">YouTube</a></div>
+    <p class="src"><a href="https://en.wikipedia.org/wiki/SS_Edmund_Fitzgerald#Musical_and_theater_tributes">The song and its revisions →</a></p>
+  </div>
+</div></section>
+
+<section class="band poem" id="poem" style="--bg:#1d2a24;--fg:#eee6d6;--ac:#e7a86b"><div class="w">
+  <div class="label"><span>Poem · Vietnamese</span><i>Vietnam, before 1820</i></div>
+  <h2>The Tale of Kiều, the opening</h2>
+  <p class="cap">Nguyễn Du (1765–1820) · <i>Truyện Kiều</i>, lines 1–8 and 29–34 of 3,254 · Vietnamese text from Wikisource · translation by Claude, unrhymed</p>
+  <p>It was on your October reading list. Nguyễn Du took the plot of a 17th-century Chinese romance and made it, in six-eight verse, the life of a gifted young woman who sells herself into marriage to get her father and brother out of prison. The man turns out to be a pimp. The poem opens by setting talent against fate.</p>
+  <div class="sv-st"><p class="sv" lang="vi"><span>Trăm năm trong cõi người ta,</span><span>Chữ tài chữ mệnh khéo là ghét nhau.</span><span>Trải qua một cuộc bể dâu,</span><span>Những điều trông thấy mà đau đớn lòng.</span></p>
+  <p class="en"><span>A hundred years in this world of ours:</span><span>the word “talent” and the word “fate” are clever at hating each other.</span><span>Live through one turn of sea into mulberry field,</span><span>and what you see there wounds the heart.</span></p></div>
+  <div class="sv-st"><p class="sv" lang="vi"><span>Lạ gì bỉ sắc tư phong,</span><span>Trời xanh quen thói má hồng đánh ghen.</span><span>Cảo thơm lần giở trước đèn,</span><span>Phong tình cổ lục còn truyền sử xanh.</span></p>
+  <p class="en"><span>No wonder: what is stinted here is lavished there,</span><span>and blue heaven, out of habit, strikes at rosy cheeks in envy.</span><span>Turning fragrant pages slowly by the lamp:</span><span>an old record of love, still handed down in the green annals.</span></p></div>
+  <p class="cap" style="text-align:center">· · · twenty lines cut: the Ming, the Vương family, two daughters and their beauty · · ·</p>
+  <div class="sv-st"><p class="sv" lang="vi"><span>Thông minh vốn sẵn tư trời,</span><span>Pha nghề thi họa, đủ mùi ca ngâm.</span><span>Cung thương làu bậc ngũ âm,</span><span>Nghề riêng ăn đứt Hồ cầm một trương.</span><span>Khúc nhà tay lựa nên chương,</span><span>Một thiên bạc mệnh, lại càng não nhân.</span></p>
+  <p class="en"><span>Quick of mind, a gift from heaven,</span><span>she had poetry and painting, every flavor of song and chant.</span><span>She knew the modes and the five notes by heart,</span><span>and on the Hu lute no one came near her.</span><span>Her own hand chose the notes and made a piece:</span><span>one song, “Thin Fate,” that grieved people all the more.</span></p></div>
+  <p class="src"><a href="https://vi.wikisource.org/wiki/Truy%E1%BB%87n_Ki%E1%BB%81u">Vietnamese text →</a> · <a href="https://en.wikipedia.org/wiki/The_Tale_of_Kieu">The poem →</a></p>
+</div></section>
+
+<section class="band law" id="bench"><div class="w">
+  <div class="label"><span>The bench</span><i>Read from the opinions</i></div>
+  <h2>What kind of claim, and whose speech</h2>
+
+  <article>
+    <h3>Mullin v. Friends of the Ruidosa Church</h3>
+    <table>
+      <tr><th>Court</th><td>U.S. Supreme Court, No. 26A560 · Nov. 9, 2026 · per curiam</td></tr>
+      <tr><th>Holding</th><td>Stay granted of a Western District of Texas injunction that halted border construction in the Big Bend Sector. A claim that the Secretary exceeded his statutory authority isn’t constitutional, whatever it’s called.</td></tr>
+      <tr><th>Vote</th><td>Unsigned. Jackson would deny, without an opinion. Others not stated.</td></tr>
+      <tr><th>Below</th><td>W.D. Tex. No. 3:26-cv-01099. The opinion doesn’t name the judge. The Fifth Circuit has no jurisdiction under the statute.</td></tr>
+    </table>
+    <p>A 1996 statute, as amended, lets the Secretary of Homeland Security waive “all legal requirements” to build border barriers quickly, and lets courts hear only constitutional claims. The Secretary waived environmental and conservation laws along the Big Bend. A river guide, an environmental nonprofit and a group preserving the historic church at Ruidosa, Texas, sued under “the major questions doctrine under the U. S. Constitution, Article I, Section 1.” The district court accepted that framing. The Court did not:</p>
+    <blockquote>There is no such thing as a “constitutional” major-questions claim.</blockquote>
+    <p>The government said the injunction cost it nearly half a million dollars a day that “cannot be recouped.” The Court added that Congress had already preferred quick construction over “the very harms respondents assert.”</p>
+    <p class="src"><a href="https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf">Opinion (PDF) →</a></p>
+  </article>
+
+  <article>
+    <h3>U.S. Chamber of Commerce v. Sanchez</h3>
+    <table>
+      <tr><th>Court</th><td>Ninth Circuit, No. 25-5327 · Nov. 9, 2026 · published</td></tr>
+      <tr><th>Holding</th><td>California’s SB 253 Scope 1 and 2 emissions reporting likely survives; its Scope 3 reporting and all of SB 261 likely violate the First Amendment. Preliminary injunction reversed as to those; severability remanded.</td></tr>
+      <tr><th>Vote</th><td>Nguyen wrote, joined by District Judge Matsumoto (E.D.N.Y., by designation). Bennett concurred in the judgment in part and dissented in part.</td></tr>
+    </table>
+    <p>Emissions from a company’s own operations are factual and bear on capital transactions, so they’re commercial speech; in the majority’s phrase, “emissions disclosures function like product warnings in capital markets.” Scope 3, the emissions of suppliers and customers, is “insufficiently tethered to the reporting entity’s own operations,” and SB 261 compels “subjective ideological assessments.” Both fail strict scrutiny.</p>
+    <p>Bennett would enjoin both laws. If closing information gaps for investors is enough, he asks, could government make workers publish “prior income, work attendance records, and reasons for past leave”? ESG Today reports that the first Scope 1 and 2 reports are due today.</p>
+    <p class="src"><a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/09/25-5327.pdf">Opinion (PDF) →</a> · <a href="https://www.esgtoday.com/u-s-appeals-court-blocks-key-parts-of-california-corporate-climate-reporting-laws/">ESG Today →</a></p>
+  </article>
+</div></section>
+
+<section class="band" id="warrior" style="--bg:#2f5a5c;--fg:#f1ead9;--ac:#f0c27a"><div class="w">
+  <div class="label"><span>Artifact</span><i>26 cm tall</i></div>
+  <img src="img/jaina.jpg" width="900" height="1279" alt="A standing clay figure of a man in armor covered in rows of small blue-green scales, with a broad collar, a loincloth and a tall fanned headdress. One arm reaches forward with an empty hand.">
+  <h2>Warrior figurine with removable headdress</h2>
+  <p class="cap">Maya · Jaina Island region, Campeche, Mexico · 600–900 · earthenware with pigment · Cleveland Museum of Art 1963.93 · CC0</p>
+  <p>A grave offering. Cleveland says the major offerings in the Maya graves of Jaina Island were ceramic figurines, “some of Mesoamerica’s finest.” This warrior probably once held weapons, and wears quilted cotton armor or the feathered uniform of a military order. The headdress lifts off. The museum is candid: “We don’t know why such figures are often pot-bellied.”</p>
+  <p>Your saved objects run to armed and fierce figures. This one is both, and a little comic.</p>
+  <p class="src"><a href="https://clevelandart.org/art/1963.93">Cleveland record →</a></p>
+</div></section>
+
+<section class="band" id="room" style="--bg:#bdb7aa;--fg:#1e1d1a;--ac:#4b4436"><div class="w">
+  <div class="label"><span>Painting</span><i>50 × 56 cm</i></div>
+  <img src="img/strandgade.jpg" width="1100" height="974" alt="A grey, nearly empty room. Sunlight from a tall window falls in two bright patches on the floor. A closed white door stands to the right; on the left a woman in black stands in shadow by a table.">
+  <h2>Strandgade, Sunshine</h2>
+  <p class="cap">Vilhelm Hammershøi (Danish, 1864–1916) · c. 1906 · oil on canvas · 50.5 × 56.2 cm · Cleveland Museum of Art 2023.38 · CC0</p>
+  <p>After Church’s blaze, a room. It’s Hammershøi’s own apartment at 30 Strandgade in Copenhagen: sun through the window onto the floor and the door, a woman in the shadows. You save rooms and light through windows, usually crowded with books. This one is nearly empty. Rilke on him:</p>
+  <blockquote>Hammershøi is not one of those artists that one needs to talk about quickly. His work is long and slow …</blockquote>
+  <p class="src"><a href="https://clevelandart.org/art/2023.38">Cleveland record →</a></p>
+</div></section>
+
+<section class="band" id="locks" style="--bg:#e4e2dc;--fg:#1d1d1b;--ac:#5c5a52"><div class="w">
+  <div class="label"><span>Photograph</span><i>Sault Ste. Marie, c. 1904</i></div>
+  <img src="img/locks.jpg" width="1024" height="822" alt="A black-and-white photograph: a freighter pours smoke as it moves along a canal lock between snowy concrete walls. A second steamer follows behind. A man in a long dark coat stands on the wall at left.">
+  <h2>A Winter’s day at the locks</h2>
+  <p class="cap">Detroit Publishing Co. no. 021825 · c. 1904 · glass negative · Library of Congress LC-DIG-det-4a15450 · no known restrictions</p>
+  <p>These are the Soo Locks between Lakes Superior and Huron, where one of the <em>Fitzgerald</em>’s captains, Peter Pulcer, entertained spectators with a running commentary on his ship. The Coast Guard closed them the afternoon she sank. The Library’s record names no photographer; the negative came from the State Historical Society of Colorado in 1949.</p>
+  <p class="src"><a href="https://www.loc.gov/pictures/item/2016805098/">Library of Congress →</a></p>
+</div></section>
+
+<section class="band ai" id="ai"><div class="w">
+  <div class="label"><span>AI</span><i>Who answers for the words</i></div>
+  <article>
+    <h3>Copilot left its own note in an expert’s report</h3>
+    <p>In care proceedings in Truro, an independent social worker’s kinship assessment contained this: “This version is about half the length, avoids advocacy, acknowledges the children's complexities, and is more likely to withstand cross-examination.” In evidence she said the whole assessment was AI-generated from her notes, because it “produces better English than I use myself.” The judge saw no significant issue with help on transcription or grammar. But generating the whole report “has placed a significant gap between the voice and opinion of the expert and the report which she has filed.” The judge placed no significant weight on her evidence, also finding it “lacking in rigour and clarity of thought.”</p>
+    <p class="src"><a href="https://caselaw.nationalarchives.gov.uk/ewfc/2026/306">Cornwall Council v M [2026] EWFC 306 →</a></p>
+  </article>
+  <article>
+    <h3>Swiss churches: technology does not write history</h3>
+    <p>Five Swiss church bodies, Protestant, Catholic, Old Catholic and evangelical, issued ten joint guidelines on AI in October, titled “Humanity in the Digital Age.” Among the theses: people differ from machines, and technology does not write history. In Christian Daily’s summary, a named individual must always remain responsible. I read that report, not the document.</p>
+    <p class="src"><a href="https://www.christiandaily.com/news/swiss-churches-across-five-traditions-issue-joint-ethical-guidelines-on-artificial-intelligence">Christian Daily →</a></p>
+  </article>
+</div></section>
+
+<footer class="end"><div class="w">Morning Coffee, No. 8. Images are Cleveland CC0 and Library of Congress with no known restrictions. Translation and blurbs by Claude; each item links to its sources. Song links open a search, and I haven’t heard the recordings.</div></footer>
+</body>
+</html>
