@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#23383d">
+<title>Morning Coffee · 11 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Beaker's chalk, flint and clay remain the register; each band takes its ground from the object it holds. */
+:root{--chalk:#EDE5D3;--ink:#1C1A17;--flint:#3E4649;--clay:#B8432A;
+--serif:"Old Standard TT",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;--ar:"Amiri","Geeza Pro",serif;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:48px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--chalk);color:var(--ink);font:400 19px/1.46 var(--serif)}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+img{display:block;width:100%;height:auto;max-width:100%}
+p{margin:0}
+.w{max-width:640px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{background:var(--bg);color:var(--fg);padding-block:34px 36px}
+.band .w{display:grid;gap:14px;min-width:0}
+.label{font:500 11px/1.4 var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--ac);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.label i{font-style:normal;opacity:.9}
+h2{font:700 clamp(31px,8.6vw,44px)/1.03 var(--serif);margin:0;text-wrap:balance;letter-spacing:-.005em}
+h2 em{font-weight:400}
+.cap,.src{font:400 12px/1.5 var(--mono)}
+.cap{opacity:.88}
+.lede{font-size:21px;line-height:1.38}
+.zone{height:9px;margin-top:4px;background:repeating-linear-gradient(90deg,currentColor 0 3px,transparent 3px 7px);opacity:.55}
+blockquote{margin:0;padding-left:14px;border-left:3px solid var(--ac);font-style:italic;font-size:19px;line-height:1.36}
+blockquote cite{display:block;font:400 12px/1.5 var(--mono);margin-top:5px}
+
+.mast{background:#6b3413;color:#fbeed2;padding-block:26px 0}
+.mast .w{display:grid;gap:10px}
+.mast h1{font:700 clamp(58px,17.5vw,104px)/.86 var(--serif);letter-spacing:-.015em;margin:0}
+.mast h1 em{font-weight:400;display:block;font-size:.52em;line-height:1;letter-spacing:.005em;margin-bottom:.1em}
+.meta{font:400 12px/1.5 var(--mono);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#f3cf94}
+.thread{padding-block:4px 20px;font-size:21px;line-height:1.36}
+
+nav.strip{position:sticky;top:0;z-index:40;background:var(--chalk);border-block:1px solid var(--ink);overflow-x:auto;scrollbar-width:none;white-space:nowrap;padding-left:max(8px,env(safe-area-inset-left,0px))}
+nav.strip::-webkit-scrollbar{display:none}
+nav.strip a{display:inline-block;font:500 11px/1 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--flint);text-decoration:none;padding:13px 9px}
+
+details{border-top:1px solid currentColor;padding-top:12px}
+summary{font:500 13px/1.4 var(--mono);cursor:pointer;color:var(--ac);min-height:24px}
+details[open] summary{margin-bottom:10px}
+details div{display:grid;gap:12px}
+
+.song{display:grid;gap:10px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font:500 13px/1 var(--mono);text-decoration:none;padding:12px 14px;border:1px solid currentColor}
+.links a:hover{background:var(--fg);color:var(--bg)}
+
+.poem{--bg:#191c33;--fg:#eee9dc;--ac:#e8603c}
+.couplet{display:grid;gap:3px;padding-block:9px;border-top:1px solid rgba(238,233,220,.2)}
+.ar{font:400 21px/1.75 var(--ar);direction:rtl;text-align:right;display:grid;grid-template-columns:1fr;column-gap:14px}
+.ar span:last-child{text-align:left}
+.en{font-size:21px;line-height:1.3;font-style:italic}
+.en span{display:block}
+.en span+span{padding-left:1.1em}
+.flash{color:#ff7a52}
+
+.law{--bg:var(--chalk);--fg:var(--ink);--ac:var(--clay)}
+.law table{width:100%;border-collapse:collapse;font:400 13px/1.45 var(--mono)}
+.law th,.law td{text-align:left;vertical-align:top;padding:8px 10px 8px 0;border-bottom:1px solid #c3c2b6}
+.law th{font-weight:500;color:var(--flint);width:5.6em;text-transform:uppercase;font-size:11px;letter-spacing:.05em;padding-top:10px}
+.law td{padding-right:0}
+.law article{display:grid;gap:12px;padding-block:18px 8px;border-top:3px double var(--ink)}
+.law h3{font:700 25px/1.1 var(--serif);margin:0}
+.law .also{font:400 13px/1.5 var(--mono);border-top:3px double var(--ink);padding-top:14px;display:grid;gap:9px}
+
+.ai{--bg:#3E4649;--fg:#EDE5D3;--ac:#f0a991}
+.ai article{display:grid;gap:7px;padding-block:14px 16px;border-top:1px solid rgba(237,229,211,.45)}
+.ai h3{font:700 23px/1.12 var(--serif);margin:0}
+.bleed{margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)))}
+.end{background:var(--chalk);padding-block:26px 44px;font:400 12px/1.55 var(--mono);color:var(--flint)}
+.sv-st{display:grid;gap:8px;padding-block:12px;border-top:1px solid rgba(238,230,214,.25)}
+.sv{font-size:19px;line-height:1.45}
+.sv span{display:block}
+.sv span:nth-child(even){padding-left:1.1em}
+.sv-st .en{font-size:19px;line-height:1.4}
+@media (min-width:560px){.ar{grid-template-columns:1fr 1fr}.sv-st{grid-template-columns:1fr 1fr;column-gap:18px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="mast" style="background:#23383d"><div class="w">
+  <div class="meta" style="color:#e9a35a"><span>Wednesday, 11 November 2026</span><span>No. 9 · about 9 min</span></div>
+  <h1 style="color:#f2ead8"><em>Morning</em>Coffee</h1>
+  <p class="thread" style="color:#f2ead8">Today’s thread is who may command whom: passengers who said no one could command them ashore, a court telling the government its latitude “is not infinite,” a judge who says machines “should never sign your reports,” and a monk content that his cat is master of his own work.</p>
+  <p class="cap" style="color:#e9a35a;padding-bottom:16px">Missing today: the Met’s web pages and Wikimedia Commons refused my requests, so the three Met pieces are described without the Met’s own notes. One bench decision, not two.</p>
+</div>
+<img src="img/postcard.jpg" width="1200" height="675" alt="Detail of a 16th-century painting: a crowd in bright robes on a rocky shore in the foreground, and beyond them a fantastical harbour city of towers and cliffs, with sailing ships on a blue-green sea."></header>
+
+<nav class="strip" aria-label="In this issue"><a href="#owl">Owl</a><a href="#zamrock">Zamrock</a><a href="#plaque">Plaque</a><a href="#compact">Compact</a><a href="#poem">Pangur</a><a href="#bench">Bench</a><a href="#brooch">Brooch</a><a href="#paris">Paris</a><a href="#cape">Cape</a><a href="#ai">AI</a></nav>
+
+<section class="band" id="owl" style="--bg:#23383d;--fg:#f2ead8;--ac:#e9a35a"><div class="w">
+  <div class="label"><span>Painting</span><i>Guess first</i></div>
+  <img src="img/bles.jpg" width="1280" height="914" alt="A wide painted landscape: a crowd sits and stands on a rocky shore at lower left, a harbour city of white towers and cliffs rises behind, ships sail on a blue-green bay, and a water mill stands at right.">
+  <p class="lede">This panel is only 42 centimetres wide. Somewhere in it the painter signed his work, and not with a name. Find the signature before you tap.</p>
+  <details><summary>Tap to reveal</summary><div>
+    <img src="img/owl.jpg" width="640" height="480" alt="Close detail of a brown rock face with a tiny owl perched on a ledge.">
+    <h2>Landscape with Saint John the Baptist</h2>
+    <p class="cap">Herri met de Bles (Flemish, 1510–1572) · c. 1540 · oil on wood · 30.5 × 42.3 cm · Cleveland Museum of Art 1967.20 · CC0</p>
+    <p>The owl, on the big rock at lower right. Cleveland says Bles was acclaimed in Italy as the Master of the Owl, <em>il Civetta</em>, after the bird he often put into his pictures.</p>
+    <p>Art historians call this a world landscape: a vast panorama with a religious story in the foreground, a type popularized by Joachim Patinir and fashionable all through the 16th century. The harbour city is imaginary. A small crowd against an enormous world, ships, orange against blue-green: your saved images are full of all three.</p>
+    <p class="src"><a href="https://clevelandart.org/art/1967.20">Cleveland record →</a></p>
+  </div></details>
+</div></section>
+
+<section class="band" id="zamrock" style="--bg:#7a3b1d;--fg:#f6e3c8;--ac:#f3b45c"><div class="w">
+  <div class="label"><span>Song</span><i>Zamrock, 1975</i></div>
+  <h2>Amanaz, <em>“Khala My Friend”</em></h2>
+  <p class="cap">Africa · Zambia Music Parlour · 1975 · reissued by Shadocks Music (2008) and Now-Again (2015)</p>
+  <p>From the <em>Cambodian Rocks</em> end of your likes: a reissue that rescued a scene. Amanaz formed in Kitwe, on the Copperbelt, in 1973, recorded its only album at the Malachite Film Studios in Chingola, and split in 1976. The name is an acronym: “Ask Me About Nice Artistes in Zambia.”</p>
+  <p>Zamrock came of age in the first decade after independence and rose and fell with the price of copper; Kaunda decreed that 95% of radio music be Zambian. The critic Mark Deming hears “deep, bluesy grooves with a strong psychedelic undercurrent and thick layers of fuzz guitar.” I haven’t heard it.</p>
+  <div class="links"><a href="https://open.spotify.com/search/Amanaz%20Khala%20My%20Friend">Spotify</a><a href="https://www.youtube.com/results?search_query=Amanaz+Khala+My+Friend">YouTube</a></div>
+  <p class="src"><a href="https://en.wikipedia.org/wiki/Amanaz">Amanaz →</a> · <a href="https://en.wikipedia.org/wiki/Zamrock">Zamrock →</a></p>
+</div></section>
+
+<section class="band" id="plaque" style="--bg:#cfc6b6;--fg:#1f1a14;--ac:#7a4a1c"><div class="w">
+  <div class="label"><span>Artifact</span><i>47.6 cm tall</i></div>
+  <img src="img/plaque.jpg" width="900" height="1125" alt="A rectangular brass plaque in high relief: a central warrior in a tall beaded helmet holds a curved sword and a spear, flanked by two shield-bearers and several smaller figures, against a background incised with leaves. Small nail holes pierce the corners.">
+  <h2>Plaque with Warrior and Attendants</h2>
+  <p class="cap">Edo peoples, Court of Benin, Nigeria · ca. 1540–70 · brass · 47.6 × 38.1 cm · Ìgùn Ẹ́rọ̀nwwọ̀n (brass-casting guild) artists · Metropolitan Museum 1990.332 · public domain</p>
+  <p>Rank, cast in metal. Plaques like this were nailed to the pillars of the oba’s palace. The casters were a guild under royal decree, living in a quarter of the palace under the king’s direct control. Many show small groups arranged by rank around a central figure, identifiable by dress and emblem but not as individuals.</p>
+  <p>Your saved objects run to guardians and armed men. Most Benin plaques were taken by British forces in 1897. The Met’s page for this one wouldn’t load for me, so I can’t trace its route; its data says only “Gift of Mr. and Mrs. Klaus G. Perls, 1990.”</p>
+  <p class="src"><a href="https://www.metmuseum.org/art/collection/search/316393">Met record →</a> · <a href="https://en.wikipedia.org/wiki/Benin_Bronzes">Benin Bronzes →</a></p>
+</div></section>
+
+<section class="band" id="compact" style="--bg:#1b2430;--fg:#ece5d6;--ac:#d9a441"><div class="w">
+  <div class="label"><span>Anecdote</span><i>Cape Cod, 11 November 1620</i></div>
+  <h2>None had power to command them</h2>
+  <p>Four hundred and six years ago today, by the calendar they used, the <em>Mayflower</em> lay at anchor in the wrong place. Storms had forced her into the hook of Cape Cod, and the patent the passengers carried was for Virginia. William Bradford, writing later, says why a compact was drawn up before anyone went ashore. It was</p>
+  <blockquote>occasioned partly by the discontented and mutinous speeches that some of the strangers amongst them had let fall: that when they got ashore they would use their liberty that none had power to command them</blockquote>
+  <p>The “strangers” were the non-Puritan passengers. The leading men also reckoned that a deed drawn up by themselves “would be as effective as any patent, and in some respects more so.” So, “in the name of God” and as “loyal subjects of our dread sovereign lord, King James,” 41 of the 101 passengers did “covenant and combine ourselves into a civil body politic,” promising “all due submission and obedience” to laws not yet written.</p>
+  <p>Within two or three months half the company was dead, and at the worst, Bradford writes, there were “but six or seven sound persons” to nurse the rest.</p>
+  <p>At the 300th anniversary Calvin Coolidge said the compact “has been designated as the first real constitution of modern times.” Bradford’s own account is plainer: order among people who had threatened to walk away from it. It sits near your <em>Albion’s Seed</em> and the Puritan reading after it.</p>
+  <p class="src"><a href="https://www.gutenberg.org/ebooks/69871">Bradford, Harold Paget’s modernized 1909 edition →</a> · <a href="https://en.wikipedia.org/wiki/Mayflower_Compact">The compact →</a></p>
+</div></section>
+
+<section class="band poem" id="poem" style="--bg:#2a2620;--fg:#efe6d2;--ac:#e3b25e"><div class="w">
+  <div class="label"><span>Poem · Old Irish</span><i>Reichenau, 9th century</i></div>
+  <h2>Pangur Bán</h2>
+  <p class="cap">Anonymous Irish monk · six of eight quatrains · Old Irish text from Thurneysen’s <i>Old Irish Reader</i>, via Cambridge’s ASNC department · translation by Claude, unrhymed</p>
+  <p>The same century as the brooch below: a scholar’s room, like the ones you save, with a cat in it. It survives in a single manuscript, the notebook of an Irish monk at Reichenau Abbey, among notes on the <em>Aeneid</em>, hymns, Greek declensions and a tract on the nature of angels. Pangur, “White Pangur,” is the cat.</p>
+  <div class="sv-st"><p class="sv" lang="sga"><span>Messe [ocus] Pangur bán,</span><span>cechtar nathar fria saindán;</span><span>bíth a menma-sam fri seilgg,</span><span>mu menma céin im saincheirdd.</span></p>
+  <p class="en"><span>I and white Pangur,</span><span>each of us at his own art:</span><span>his mind is set on hunting,</span><span>mine on my own craft.</span></p></div>
+  <div class="sv-st"><p class="sv" lang="sga"><span>Caraim-se fos, ferr cach clú,</span><span>oc mu lebrán léir ingnu;</span><span>ní foirmtech frimm Pangur bán,</span><span>caraid cesin a maccdán.</span></p>
+  <p class="en"><span>I love, better than any fame,</span><span>to be still at my little book, hard at learning;</span><span>white Pangur does not grudge it me:</span><span>he loves his own boy’s game.</span></p></div>
+  <p class="cap" style="text-align:center">· · · one quatrain cut: the two of them alone in the house, never bored · · ·</p>
+  <div class="sv-st"><p class="sv" lang="sga"><span>Gnáth-húaraib ar gressaib gal</span><span>glenaid luch inna lín-sam;</span><span>os mé, du·fuit im lín chéin</span><span>dliged n-doraid cu n-dronchéill.</span></p>
+  <p class="en"><span>Often, after his fits of battle,</span><span>a mouse sticks in his net;</span><span>and into my net, for my part,</span><span>falls a hard rule with a stubborn sense.</span></p></div>
+  <div class="sv-st"><p class="sv" lang="sga"><span>Fúachid-sem fri frega fál</span><span>a rosc anglése comlán;</span><span>fúachimm chéin fri fégi fis</span><span>mu rosc réil, cesu imdis.</span></p>
+  <p class="en"><span>He trains against the wall</span><span>his full, bright eye;</span><span>I train against the edge of knowing</span><span>my own clear eye, weak as it is.</span></p></div>
+  <p class="cap" style="text-align:center">· · · one quatrain cut: the joy of the catch, and of a problem solved · · ·</p>
+  <div class="sv-st"><p class="sv" lang="sga"><span>Cía beimmi amin nach ré,</span><span>ní·derban cách ar chéle.</span><span>Maith la cechtar nár a dán,</span><span>subaigthius a óenurán.</span></p>
+  <p class="en"><span>Though we are like this all the time,</span><span>neither one gets in the other’s way.</span><span>Each of us likes his art</span><span>and takes his joy in it alone.</span></p></div>
+  <div class="sv-st"><p class="sv" lang="sga"><span>Hé fesin as choimsid dáu</span><span>in muid du·n-gní cach óenláu;</span><span>du thabairt doraid du glé</span><span>for mu mud céin am messe.</span></p>
+  <p class="en"><span>He himself is master</span><span>of the work he does each day;</span><span>to bring what is hard into the clear</span><span>is my own work.</span></p></div>
+  <p class="src"><a href="https://www.asnc.cam.ac.uk/spokenword/i_pangur.php?d=tt">Old Irish text, with a recording →</a> · <a href="https://en.wikipedia.org/wiki/Pangur_B%C3%A1n">The poem →</a></p>
+</div></section>
+
+<section class="band law" id="bench"><div class="w">
+  <div class="label"><span>The bench</span><i>Read from the opinion</i></div>
+  <h2>Latitude, not carte blanche</h2>
+
+  <article>
+    <h3>In re Application of the United States (LinkedIn)</h3>
+    <table>
+      <tr><th>Court</th><td>Fourth Circuit, No. 26-4303 · Nov. 10, 2026 · published</td></tr>
+      <tr><th>Holding</th><td>A provider may challenge a Stored Communications Act order as overbroad. This disclosure order and its one-year gag order must be narrowed on remand. Denial of the government’s ex parte filings to LinkedIn affirmed.</td></tr>
+      <tr><th>Vote</th><td>3–0. Wilkinson wrote, joined by Wynn and Berner.</td></tr>
+      <tr><th>Below</th><td>E.D. Va. (Newport News), District Judge Elizabeth W. Hanes, adopting a magistrate judge’s recommendation.</td></tr>
+    </table>
+    <p>A news outlet published classified details of what it called a top-secret military operation abroad. Investigating the leak, the government got an order making LinkedIn hand over 18 months of metadata for the outlet’s journalists: everyone they connected or messaged with. In that time they published nearly 1,000 articles, less than 5% apparently related. A second order barred LinkedIn from telling anyone for a year.</p>
+    <p>The district court said LinkedIn could complain only of logistical burden. The panel disagreed: irrelevance is itself an “undue burden,” and the First Amendment, through Justice Powell’s <em>Branzburg</em> concurrence, sharpens the tailoring. Wilkinson concedes a great deal first:</p>
+    <blockquote>The government is entitled to discovery to the full extent permitted by law. It is entitled to a disclosure order. It is even entitled to a broad disclosure order. But it is not entitled to carte blanche.</blockquote>
+    <p>On the gag order, a prior restraint by both sides’ agreement, LinkedIn asked only to tell one previously vetted lawyer for the outlet. Unless the government does better on remand, that exception “must be adopted.” He stresses national security again (“To repeat to the point of testing reader patience,” he writes) and ends: “There is space under law for both.”</p>
+    <p class="src"><a href="https://www.ca4.uscourts.gov/opinions/264303.P.pdf">Opinion (PDF) →</a></p>
+  </article>
+</div></section>
+
+<section class="band" id="brooch" style="--bg:#c9ccce;--fg:#1b1d20;--ac:#8a4b1f"><div class="w">
+  <div class="label"><span>Artifact</span><i>9.5 cm across</i></div>
+  <img src="img/brooch.jpg" width="800" height="842" alt="A silver ring brooch with a long straight pin. The ring opens at the left into two flat, scalloped terminals, each set with a round amber stud.">
+  <h2>Open-ring brooch</h2>
+  <p class="cap">Pictish or Irish · early 800s · silver, cast and partially gilded; amber · 9.3 × 9.5 cm · Ireland (Galway) per the Met’s record · Metropolitan Museum 1981.413 · public domain</p>
+  <p>A cloak pin with a liability rule. Men wore these singly at the shoulder and women on the breast, pin pointing up, and an Irish law code says that if the pin injures someone, the wearer isn’t at fault provided it didn’t project too far and was worn the proper way.</p>
+  <p>Brooches in precious metal were marks of status. The <i>Senchas Mór</i> says the sons of major kings in fosterage should have “brooches of gold having crystal inserted in them,” sons of minor kings only silver. Amber was one of the materials set in these studs. Most of your saved objects are things you could hold; this one you’d wear.</p>
+  <p class="src"><a href="https://www.metmuseum.org/art/collection/search/466071">Met record →</a> · <a href="https://en.wikipedia.org/wiki/Celtic_brooch">Celtic brooches →</a></p>
+</div></section>
+
+<section class="band" id="paris" style="--bg:#141414;--fg:#ece8df;--ac:#c9b48a"><div class="w">
+  <div class="label"><span>Photograph</span><i>Paris, 11 November 1918</i></div>
+  <img src="img/paris.jpg" width="695" height="976" alt="A black-and-white photograph of a dense crowd of young men and boys in caps and hats, packed together and looking in different directions. An American flag waves above them; one young man has a cigarette in his mouth.">
+  <h2>Like bees on the German guns</h2>
+  <p class="cap">Photographer recorded as Guerin · American Red Cross · glass negative, 5 × 7 in. · Library of Congress LC-DIG-anrc-17959 · no known restrictions</p>
+  <p>The Red Cross caption card: “The crowd clustered like bees on the German guns in the Place de la Concorde, Paris, while celebrating the signing of the Armistice with Germany.” The guns are out of frame. What’s left is faces, a flag, a cigarette, and almost no two people looking the same way.</p>
+  <div class="zone"></div>
+  <div class="song">
+    <div class="label"><span>Listen alongside</span><i>Armistice Day</i></div>
+    <h2 style="font-size:28px">The Fureys and Davey Arthur, <em>“The Green Fields of France”</em></h2>
+    <p class="cap">The Green Fields of France · Banshee · 1979 · written by Eric Bogle in 1976 as “No Man’s Land”</p>
+    <p>Near “Down in a Willow Garden” in your likes: a ballad at a young soldier’s grave. Bogle wrote it after he and his wife visited three or four military cemeteries in France and Flanders. He picked “Willie McBride” because it rhymed with “grave side,” and made him Irish to counter the anti-Irish feeling in Britain then. The Fureys’ version was the big success.</p>
+    <div class="links"><a href="https://open.spotify.com/search/Fureys%20Davey%20Arthur%20Green%20Fields%20of%20France">Spotify</a><a href="https://www.youtube.com/results?search_query=Fureys+Davey+Arthur+Green+Fields+of+France">YouTube</a></div>
+    <p class="src"><a href="https://en.wikipedia.org/wiki/No_Man%27s_Land_(Eric_Bogle_song)">The song’s history →</a> · <a href="https://en.wikipedia.org/wiki/The_Fureys">The Fureys →</a> · <a href="https://www.loc.gov/item/2017682943/">Library of Congress →</a></p>
+  </div>
+</div></section>
+
+<section class="band" id="cape" style="--bg:#1a1d1c;--fg:#e9e4d6;--ac:#d9c38a"><div class="w">
+  <div class="label"><span>Painting</span><i>62 × 85 cm</i></div>
+  <img src="img/balke.jpg" width="1280" height="924" alt="A dark seascape at night: a sheer flat-topped headland under a break in heavy clouds, a moon glowing through, its light on the water. A small rowing boat with three figures sits in the middle distance, and a sailing ship lies near rocks at right.">
+  <h2>The North Cape by Moonlight</h2>
+  <p class="cap">Peder Balke (Norwegian, 1804–1887) · 1848 · oil on canvas · 62 × 85 cm · Metropolitan Museum 2019.167.4 · public domain</p>
+  <p>The far north, a small boat, a torn sky: your saved images keep coming back to all three. Farmers in Toten paid for Balke’s training, and he decorated their farms in return. In 1846 he sold thirty paintings to Louis Philippe for Versailles.</p>
+  <p>Later he bought farmland outside Christiania and laid out Balkeby, a suburb where workers could borrow from him to build their own houses, with wide streets against fire. In June 1879 many of the houses burned anyway.</p>
+  <p class="src"><a href="https://www.metmuseum.org/art/collection/search/441379">Met record →</a> · <a href="https://en.wikipedia.org/wiki/Peder_Balke">Balke →</a></p>
+</div></section>
+
+<section class="band ai" id="ai"><div class="w">
+  <div class="label"><span>AI</span><i>Who signs</i></div>
+  <article>
+    <h3>“These tools will never sit on the bench”</h3>
+    <p>Marvic Leonen, senior associate justice of the Philippine Supreme Court, to the Integrated Bar’s disciplinary investigators: “These tools will never sit on the bench. They should never sign your reports.” He told them to verify every citation against its source and to disclose AI use. His sharper line was about people: “Deference feels like courtesy. Going along feels like collegiality. The status quo never demands that we do wrong. It asks only that we do nothing.”</p>
+    <p class="src"><a href="https://www.manilatimes.net/2026/11/11/news/national/leonen-warns-lawyers-vs-blind-reliance-on-ai/2466553">Manila Times →</a></p>
+  </article>
+  <article>
+    <h3>Puerto Rico: no exemption for representing yourself</h3>
+    <p>Puerto Rico’s Supreme Court fined two siblings $500 each in an inheritance dispute. Representing themselves, they filed papers that cited nearly 25 cases that didn’t exist or were misdescribed. Justice Raúl Candelario López, concurring, said the citations appeared machine-generated. The court drew its line between drafting with AI and filing its output unchecked. I read the San Juan Daily Star’s report of the Oct. 28 decision, not the decision.</p>
+    <p class="src"><a href="https://www.sanjuandailystar.com/post/top-court-sanctions-self-represented-litigants-for-submitting-ai-generated-false-citations">San Juan Daily Star →</a></p>
+  </article>
+</div></section>
+
+<footer class="end"><div class="w">Morning Coffee, No. 9. Images are Cleveland CC0, Met Open Access public domain, and Library of Congress with no known restrictions. Translation and blurbs by Claude; each item links to its sources. Song links open a search, and I haven’t heard the recordings.</div></footer>
+</body>
+</html>
